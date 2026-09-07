@@ -1,0 +1,86 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "cards",
+  "order": 12,
+  "title": {
+    "en": "Cards",
+    "ar": "البطاقات (Cards)"
+  },
+  "intro": {
+    "en": "Build cards around the information needed for a quick decision, with responsive layouts and clear rules for real data.",
+    "ar": "ابني البطاقات حوالين المعلومات اللازمة لقرار سريع، مع تخطيطات متجاوبة وقواعد واضحة للبيانات الحقيقية."
+  },
+  "sections": [
+    {
+      "id": "what-is-a-card",
+      "title": {
+        "en": "What is a card?",
+        "ar": "إيه هي البطاقة؟"
+      },
+      "body": {
+        "en": "A card groups content about **one topic**, usually an image, text and an action, in an easy-to-browse container. It helps users decide at a glance whether to click for more or move on, much like judging a book by its cover.",
+        "ar": "البطاقة (Card) بتجمّع محتوى عن **موضوع واحد** (عادةً صورة + نص + عنصر فعل) في حاوية سهلة التصفّح. هدفها: تساعد المستخدم يقرر بنظرة سريعة — يدوس يعرف أكتر أو يعدّي. زي ما بنحكم على الكتاب من غلافه."
+      }
+    },
+    {
+      "id": "core-idea",
+      "title": {
+        "en": "The core idea",
+        "ar": "الفكرة الأساسية"
+      },
+      "body": {
+        "en": "**Think of a card as a condensed version of a full page.** Your job as a designer is to decide which content from that page is important enough to appear on the card.",
+        "ar": "**فكّر في البطاقة كنسخة مختصرة من صفحة كاملة.** ودورك كمصمّم إنك تحدد أي محتوى من الصفحة الكاملة مهم بما يكفي إنه يظهر على البطاقة."
+      }
+    },
+    {
+      "id": "content-prioritization",
+      "title": {
+        "en": "Content prioritization",
+        "ar": "طريقة اختيار المحتوى (Content Prioritization)"
+      },
+      "body": {
+        "en": "1. List **all** information about the entity. For a recipe: title, image, cooking time, servings, difficulty, ingredients, ratings and steps.\n2. Identify what users **actually need** to decide whether to click or move on, such as image, title, time, servings and difficulty.\n3. Remove everything else. Full ingredients and cooking steps do not help that decision and clutter the card.",
+        "ar": "١. اكتب **كل** المعلومات المتعلقة بالكيان (مثلاً وصفة: العنوان، الصورة، وقت الطهي، عدد الحصص، الصعوبة، المكونات، التقييمات، الخطوات)\n٢. حدد أي جزء **فعلاً محتاجه** المستخدم عشان يقرر يدوس أو يعدّي (مثلاً: الصورة + العنوان + الوقت + الحصص + الصعوبة)\n٣. اشيل كل حاجة تانية — المكونات الكاملة وخطوات الطبخ مش بتساعد في القرار وبتزحم البطاقة"
+      },
+      "callout": {
+        "type": "warning",
+        "en": "**More is not always better:** extra information increases cognitive overload and makes the decision harder, defeating the card's purpose.",
+        "ar": "**أكتر مش دايمًا أحسن**: حشو معلومات زيادة في البطاقة بيزوّد الحمل الذهني (Cognitive Overload) وبيصعّب القرار — عكس هدف البطاقة تمامًا."
+      }
+    },
+    {
+      "id": "card-anatomy",
+      "title": {
+        "en": "Card anatomy",
+        "ar": "تشريح البطاقة"
+      },
+      "body": {
+        "en": "A card usually consists of simple sub-elements:\n- Image or header.\n- Icon button.\n- Short text.\n- Data such as price.\n- Primary button.\n\nThis structure is flexible. What matters is that the important information is present and the card **looks clickable**.",
+        "ar": "البطاقة عادةً بتتكوّن من عناصر فرعية بسيطة:\n- صورة/هيدر\n- أيقونة (زرار)\n- نص قصير\n- بيانات (زي السعر)\n- زرار أساسي\n\nبس التركيبة دي مش ثابتة — المهم إن المعلومة المهمة موجودة والبطاقة **شكلها قابل للضغط**."
+      }
+    },
+    {
+      "id": "card-design-tips",
+      "title": {
+        "en": "Important tips",
+        "ar": "نصائح مهمة"
+      },
+      "body": {
+        "en": "### Design responsive versions in advance\nInstead of handling each screen size separately, create different card templates for different screen sizes from the start.\n\n### Test with real data and edge cases\nDesigners do not control name length or image availability, but **must** define rules:\n- **Long names:** set a character limit and truncate, for example \"A very long name...\" → \"A very long...\"\n- **Missing images:** use a placeholder icon instead of empty space.\n\n### Make cards look clickable\nA card should stand slightly off the background, usually with a subtle drop shadow. On hover, enlarge the card and shadow slightly to confirm interactivity.\n\n### One style throughout the product\nYou can choose:\n- White background with shadow, generally the best option.\n- Stroke border.\n- Tonal background.\n\nBut **never** mix more than one style in the same product.",
+        "ar": "### صمّم نسخ متجاوبة مسبقًا\nبدل ما تتعامل مع كل حجم شاشة لوحدها — صمّم قوالب بطاقات مختلفة من الأول لأحجام شاشة مختلفة.\n\n### اختبر بالبيانات الحقيقية (Edge Cases)\nالمصمّم مش بيتحكم في طول الأسماء أو وجود الصور — بس **لازم** يحدد قواعد:\n- **أسماء طويلة**: حد أقصى لعدد الحروف مع اقتصاص (Truncation) — \"اسم طويل جدًا يا...\" → \"اسم طويل جدً...\"\n- **صور مفقودة**: أيقونة بديلة (Placeholder) بدل مساحة فارغة\n\n### خلّيها تبان إنها بتتضغط\nالبطاقة محتاجة تبرز قليلاً عن الخلفية — عادةً بظل خفيف (Drop Shadow). ولما المستخدم يعمل Hover — البطاقة والظل يكبروا شوية. ده بيأكد إنها تفاعلية.\n\n### أسلوب واحد في كل المنتج\nممكن تختار:\n- خلفية بيضاء + ظل (الأفضل عمومًا)\n- حدود (Stroke)\n- خلفية لونية (Tonal)\n\nبس **أبدًا** متخلطش أكتر من أسلوب في نفس المنتج."
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- A card is a condensed preview of a full page.\n- Include only content that helps the decision; avoid stuffing it.\n- Design responsive templates in advance.\n- Define rules for long text and missing images.\n- A shadow and hover state signal interactivity.\n- Keep one consistent style.",
+        "ar": "- البطاقة = معاينة مختصرة لصفحة كاملة\n- اختار المحتوى اللي بيساعد القرار بس — متحشيش\n- صمّم قوالب متجاوبة مسبقًا\n- حدد قواعد للنصوص الطويلة والصور المفقودة\n- ظل + حالة Hover = إشارة للتفاعلية\n- أسلوب واحد ثابت"
+      }
+    }
+  ]
+}

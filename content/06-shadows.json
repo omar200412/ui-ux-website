@@ -1,0 +1,97 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "shadows",
+  "order": 6,
+  "title": {
+    "en": "Shadows",
+    "ar": "الظلال (Shadows)"
+  },
+  "intro": {
+    "en": "How shadows communicate depth, which settings create softness, and how to handle elevation in dark mode.",
+    "ar": "إزاي الظلال بتوضح العمق، وأنهي إعدادات بتخليها ناعمة، وإزاي تتعامل مع الارتفاع في الوضع الداكن."
+  },
+  "sections": [
+    {
+      "id": "shadow-types",
+      "title": {
+        "en": "Two types of shadows",
+        "ar": "نوعين من الظلال"
+      },
+      "body": {
+        "en": "**Drop shadow:** the most familiar and widely used type. Appears beneath an element and visually lifts it off the background.\n**Inner shadow:** makes an element look recessed into the surface instead of elevated.",
+        "ar": "**ظل خارجي (Drop Shadow):** الأشهر والأكثر استخدامًا — بيظهر تحت العنصر وبيرفعه بصريًا عن الخلفية.\n**ظل داخلي (Inner Shadow):** بيخلي العنصر يبان \"غايص\" في السطح بدل ما يبان مرتفع."
+      }
+    },
+    {
+      "id": "why-shadows",
+      "title": {
+        "en": "Why use shadows?",
+        "ar": "ليه بنستخدم الظلال؟"
+      },
+      "body": {
+        "en": "Shadows add depth. They show which elements are elevated, closer to the user, more prominent and interactive, and which are flat or farther away.",
+        "ar": "الظلال بتضيف عمق — بتوضح أنهي عناصر \"مرتفعة\" (أقرب للمستخدم، أبرز، تفاعلية) وأنهي مسطحة/بعيدة."
+      }
+    },
+    {
+      "id": "shadow-anatomy",
+      "title": {
+        "en": "Anatomy of a shadow",
+        "ar": "تشريح الظل"
+      },
+      "body": {
+        "en": "Every shadow follows the shape of the element casting it and is defined by:\n- **X:** horizontal offset.\n- **Y:** vertical offset.\n- **Blur:** softness or blurring.\n- **Opacity:** transparency.",
+        "ar": "كل ظل ليه نفس شكل العنصر اللي بيلقيه، ومعرّف بـ:\n- **X:** الإزاحة الأفقية.\n- **Y:** الإزاحة الرأسية.\n- **Blur:** النعومة/التمويه.\n- **Opacity:** الشفافية."
+      }
+    },
+    {
+      "id": "better-shadows",
+      "title": {
+        "en": "How to make good-looking shadows",
+        "ar": "إزاي تعمل ظلال حلوة"
+      },
+      "body": {
+        "en": "**1. Soft shadows, rather than sharp ones:**\nHigh blur, low opacity (about 5–10%) and a larger Y offset look natural and elegant. Sharp default shadows look poor.\n\n**2. Avoid pure black (#000000) in shadows:**\nIt looks unnatural. Use a dark color from your grayscale instead.\n\n**3. Colored shadows:**\nA colored shadow makes a colorful element stand out more than an ordinary dark shadow.\n\n**5. A shadow on button text:**\nA subtle text shadow can improve contrast when white text sits on a light button. Changing the button or text color is a better solution; the shadow is a fallback.",
+        "ar": "**١. ظلال ناعمة مش حادة:**\nBlur عالي + Opacity منخفضة (~5–10%) + إزاحة Y أكبر = طبيعي وأنيق. الظلال الحادة الافتراضية بتبان وحشة.\n\n**٢. تجنب الأسود النقي (#000000) في الظلال:**\nبيبان مش طبيعي. استخدم لون غامق من مقياسك الرمادي بدله.\n\n**٣. الظلال الملونة:**\nعلى العناصر الملونة، ظل ملون بيخلي التصميم \"يبرز\" أكتر من ظل غامق عادي.\n\n**٥. ظل على نص الزرار:**\nظل نص خفيف ممكن يحسّن التباين لما النص أبيض على زرار فاتح. لكن الحل الأفضل هو تغيير لون الزرار أو النص — الظل حل احتياطي."
+      },
+      "callout": {
+        "type": "warning",
+        "en": "**4. Not every element needs a shadow:**\nShadows work best on interactive elements such as buttons and cards. Noninteractive elements such as disabled buttons and ordinary text **should have no shadow**, because a shadow suggests interactivity.",
+        "ar": "**٤. مش كل عنصر محتاج ظل:**\nالظلال بتشتغل أحسن على العناصر التفاعلية (أزرار، كروت). العناصر المش تفاعلية (أزرار معطلة، نص عادي) **ملهاش ظل** — لأن الظل بيوحي بالتفاعلية."
+      }
+    },
+    {
+      "id": "dark-mode-shadows",
+      "title": {
+        "en": "Shadows in dark mode",
+        "ar": "الظلال في الوضع الداكن (Dark Mode)"
+      },
+      "body": {
+        "en": "**Never turn black shadows white.** This looks confusing and wrong. Instead, elevate an element by giving it a lighter shade of the background color, rather than a literal shadow.",
+        "ar": "**متقلبش الظلال السودا لبيضا أبدًا** — بيبان مربك وغلط. بدل كده، ارفع العنصر باستخدام درجة أفتح من لون الخلفية بدل ظل حرفي."
+      }
+    },
+    {
+      "id": "inner-shadows",
+      "title": {
+        "en": "Inner shadows",
+        "ar": "الظلال الداخلية (Inner Shadows)"
+      },
+      "body": {
+        "en": "**Avoid them almost entirely** in modern design. They look like holes rather than depth. This conflicts with user expectations: elevated elements with shadows are usually clickable, while something recessed looks noninteractive and confusing.",
+        "ar": "**تجنبها تقريبًا تمامًا** في التصميم الحديث. بتبان كـ \"حفرة\" مش عمق — وده بيتعارض مع توقعات المستخدم (العناصر المرتفعة بظل عادة بتكون قابلة للضغط، لكن حاجة \"غايصة\" بتبان مش تفاعلية ومربكة)."
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Use drop shadows only for interactive elements such as buttons and cards.\n- Keep shadows soft: high blur, low opacity (about 5–10%) and a color from your grayscale instead of pure black.\n- Colored shadows enhance vibrant elements.\n- In dark mode, use a lighter background shade instead of a white shadow.\n- Avoid inner shadows; they look like confusing holes.",
+        "ar": "- استخدم الظلال الخارجية للعناصر التفاعلية بس (أزرار، كروت).\n- ظلال ناعمة: Blur عالي، Opacity منخفضة (~5–10%)، تجنب الأسود النقي — استخدم لون من مقياسك الرمادي.\n- الظلال الملونة بتعزز العناصر الحيوية.\n- في الوضع الداكن: درجة خلفية أفتح بدل ظل أبيض.\n- تجنب الظلال الداخلية — بتبان كـ \"حفر\" مربكة."
+      }
+    }
+  ]
+}

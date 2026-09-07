@@ -1,0 +1,92 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "navigation",
+  "order": 16,
+  "title": {
+    "en": "Navigation",
+    "ar": "التنقل"
+  },
+  "intro": {
+    "en": "Navigation can make the difference between a useful product and one people abandon. Users must always understand where they are and how to reach what they need.",
+    "ar": "التنقل (Navigation) ممكن يكون الفرق بين تطبيق ناجح وتطبيق الناس بتمسحه بعد دقيقة. ممكن يكون عندك أحلى تصميم في الدنيا بأنيميشن مبهرة وألوان تحفة — لكن لو المستخدم مش عارف يوصل للصفحة اللي عايزها، هيزهق ويمشي."
+  },
+  "sections": [
+    {
+      "id": "navigation-types",
+      "title": {
+        "en": "The three types of navigation",
+        "ar": "أنواع التنقل التلاتة"
+      },
+      "body": {
+        "en": "Most products combine three patterns. **Visible navigation** stays on screen and marks the current destination. **Hidden navigation** opens on demand and can contain more items. **Contextual navigation** places relevant links directly inside content.",
+        "ar": "أي منتج رقمي عادة بيحتوي على التلات أنواع دول مع بعض:\r\n\r\n#### ١. التنقل الظاهر (Visible Navigation)\r\n\r\nده اللي بيبان طول الوقت — مجموعة تابات (Tabs) غالبًا بأيقونات، في مكان ثابت مابيتحركش مع السكرول، وبتعرّف المستخدم هو فين دلوقتي عن طريق تمييز التاب المختار.\r\n\r\n**ليه هو الأفضل؟** لأنه الأسهل في الوصول — المستخدم مش محتاج يعمل أي خطوة إضافية عشان يشوف الخيارات المتاحة.\r\n\r\n#### ٢. التنقل المخفي (Hidden Navigation)\r\n\r\nده مش ظاهر تلقائيًا — لازم المستخدم يضغط على حاجة (زي أيقونة الهامبرجر ☰) عشان يظهر. ميزته إنه يقدر يستوعب عناصر أكتر وقوائم فرعية. عيبه إنه محتاج ضغطة إضافية، وعلى الموبايل بيكون بعيد عن الإبهام لأنه غالبًا في أعلى الشاشة.\r\n\r\n#### ٣. التنقل السياقي (Contextual Navigation)\r\n\r\nده مش تابات أصلًا — ده روابط مدمجة جوه المحتوى نفسه. مثلًا هاشتاج على إنستجرام، أو تاج تحت مقال. شكله عادي زي زرار صغير مش بارز أوي، وموجود في كل تطبيق تقريبًا."
+      }
+    },
+    {
+      "id": "visible-vs-hidden",
+      "title": {
+        "en": "Choose between visible and hidden navigation",
+        "ar": "إزاي تختار بين الظاهر والمخفي؟"
+      },
+      "body": {
+        "en": "The tradeoff is access versus capacity. Visible navigation works best for roughly five primary destinations (up to seven on desktop). When there are more, keep the primary destinations visible and move secondary ones into a hidden menu. Too many simultaneous choices increase cognitive load.",
+        "ar": "القرار بيرجع لمعادلة بسيطة: **سهولة الوصول مقابل السعة**.\r\n\r\n- التنقل الظاهر بيشتغل كويس لغاية ٥ تابات (أو ٧ كحد أقصى على الديسكتوب). أكتر من كده، المستخدم بيتعرض لحمل إدراكي زيادة (Cognitive Overload) وبيبقى صعب عليه ياخد قرار.\r\n- لو عندك أكتر من ٧ صفحات، استخدم التنقل المخفي — لكن برضو ماتزودش عن ٧ عناصر فيه.\r\n- بعض التطبيقات زي تويتر بتستخدم الاتنين: تنقل ظاهر للصفحات المهمة + تنقل مخفي للصفحات الثانوية.\r\n\r\n**ليه الحمل الإدراكي مهم؟** لأن كل ما زادت الخيارات قدام المستخدم في وقت واحد، كل ما بقى القرار أصعب والتجربة أسوأ. ده مش رأي — ده علم نفس (Hick's Law)."
+      }
+    },
+    {
+      "id": "mobile-tab-bars",
+      "title": {
+        "en": "Design mobile tab bars",
+        "ar": "تصميم شريط التابات (Tab Bar) — للموبايل"
+      },
+      "body": {
+        "en": "Keep the tab bar fixed at the bottom, close to the thumb. Use three to five items with an icon and label, clearly mark the active tab, and preserve safe-area spacing. Avoid hiding core destinations behind gestures.",
+        "ar": "**خطوات البناء:**\r\n1. اعمل مستطيل بعرض الشاشة كلها في الأسفل، ارتفاعه ٦٠–٨٤ نقطة\r\n2. حدد عدد التابات (مثلًا ٤)، وقسّم المستطيل أقسام متساوية\r\n3. حط أيقونة في نص كل قسم\r\n4. حط اسم (Label) تحت كل أيقونة\r\n5. وسّط الأيقونة والاسم كمجموعة واحدة رأسيًا\r\n6. شيل المستطيلات المساعدة، وقلل وضوح (Opacity) العناصر الغير مختارة لحوالي ٣٥٪\r\n\r\n**نصائح عملية:**\r\n- الأسماء مش لازمة دايمًا لو الأيقونات معروفة جدًا (زي البيت أو العدسة). لكن لو مافيش تطبيق ناجح بيستخدم الأيقونة دي من غير اسم — ماتخاطرش.\r\n- لو هتستخدم أسماء، استخدمها لكل التابات. ماتخلطش تابات بأسماء وتابات من غير — ده بيبان مكسور ومش متسق.\r\n- على الآيفونات اللي من غير زرار Home، سيب مساحة إضافية في الأسفل وارفع المحتوى لفوق عشان ماتتعارضش مع منطقة السحب.\r\n\r\n**[ملاحظة للسياق العربي]** في التصميم العربي (RTL)، ترتيب التابات بيكون من اليمين لليسار. التاب الأول (الرئيسية) بيكون أقصى اليمين مش أقصى الشمال. ده تفصيلة بسيطة لكن لو نسيتها التصميم هيحسّس المستخدم العربي إن الأولويات مقلوبة."
+      }
+    },
+    {
+      "id": "desktop-text-tabs",
+      "title": {
+        "en": "Design desktop text tabs",
+        "ar": "تصميم تابات النصوص (Text Tabs) — للديسكتوب"
+      },
+      "body": {
+        "en": "Text tabs work for a small set of peer-level views. Use short labels, a strong active state and one consistent alignment. Tabs switch content in place; use ordinary navigation when the destination is a separate page.",
+        "ar": "- مابتاخدش عرض الشاشة كله — بتكون في منطقة الهيدر واللوجو بياخد مكانه لوحده.\r\n- ممكن تضيف أزرار (Buttons) في النافيجيشن بتاعة الديسكتوب — لكن ماتحطش الزرار في نص صف التابات، حطه كآخر عنصر. وجود زرار في النص بيشتت الانتباه.\r\n- لو عندك أكتر من ٧ صفحات، استخدم قائمة منسدلة (Dropdown) بدل ما تزحم تابات أكتر.\r\n- فيه تنقل ظاهر عمودي/جانبي على الديسكتوب برضو، شبيه بالسايدبار لكن الفرق الأساسي إنه مش بيتقفل (مش Collapsible)."
+      }
+    },
+    {
+      "id": "sidebar-navigation",
+      "title": {
+        "en": "Design sidebar navigation",
+        "ar": "تصميم السايدبار (Sidebar) — التنقل المخفي"
+      },
+      "body": {
+        "en": "A sidebar is useful for products with many destinations or nested groups. Keep hierarchy shallow, group related items, make the current location obvious and let users collapse the rail only when labels remain discoverable.",
+        "ar": "**خطوات البناء:**\r\n1. من الشاشة الرئيسية، ضيف طبقة معتمة (Overlay) بشفافية ٦٠–٧٠٪ فوق المحتوى الموجود\r\n2. ضيف مستطيل أبيض كبانل السايدبار يغطي ٧٠–٨٠٪ من عرض الشاشة\r\n3. طبّق هامش متسق من حافة الشاشة (نفس هامش الجريد بتاع المشروع)\r\n4. استخدم مستطيلات مساعدة لتوزيع الأيقونات والأسماء، وسيب مساحة فاضية فوق\r\n5. وسّط كل أيقونة واسمها في المساعدات، والزقهم على الهامش\r\n6. شيل المساعدات وقلل الوضوح للصفحات الغير مختارة\r\n\r\n**ملاحظات مهمة:**\r\n- السايدبار بيتقفل لوحده لما المستخدم يضغط برا — فزرار الإغلاق (X) اختياري مش إجباري\r\n- ممكن يتضاف فيه عناصر إضافية: معلومات المستخدم، أزرار، لوجو — بس ماتزحمهوش\r\n- توزيع الأيقونات مختلف تمامًا عن التاب بار: التاب بار الأيقونات بتتوزع بالتساوي أفقيًا، لكن السايدبار الأيقونات مابتتوزعش على الارتفاع كله — استخدم مسافات من مقياس المسافات (Spacing Scale) بدل ما تملا المساحة الرأسية كلها\r\n\r\n**[ملاحظة للسياق العربي]** في التصميم العربي، السايدبار بيفتح من اليمين مش من الشمال. ده مهم جدًا لأن المستخدم العربي متعوّد يبدأ من اليمين. لو فتحته من الشمال هتحسّسه إن التطبيق مش مصمّم له."
+      }
+    },
+    {
+      "id": "contextual-navigation",
+      "title": {
+        "en": "Use contextual navigation",
+        "ar": "التنقل السياقي"
+      },
+      "body": {
+        "en": "Contextual links belong near the content they affect: tags, related topics and inline actions. Style them as secondary navigation and make the destination or result clear from the label.",
+        "ar": "عشان تقول للمستخدم \"ده ينضغط\"، استخدم إشارات بصرية: زوّد الوضوح أو ضيف لون يميّزه عن النص الساكن حواليه، أو حوّل العنصر لـ \"شيب\" (Chip) — يعني شكل حبة زي الزرار الصغير — بدل ما تسيبه غامض وسط النص."
+      }
+    },
+    {
+      "id": "navigation-key-points",
+      "title": {
+        "en": "Key points",
+        "ar": "النقاط المفتاحية"
+      },
+      "body": {
+        "en": "- Prefer visible navigation for the most important destinations.\n- Limit simultaneous choices and expose a clear current state.\n- Put mobile primary navigation within thumb reach.\n- Use tabs only between peer views.\n- Organize sidebars by hierarchy and keep contextual links close to their content.",
+        "ar": "- أقصى عدد للتابات الظاهرة: ٥ (أو ٧ على الديسكتوب)؛ أقصى عدد للمخفية: ٧\r\n- فضّل الظاهر على المخفي لما العدد يسمح — أسهل في الوصول\r\n- ماتخلطش أيقونات بأسماء وأيقونات من غير في نفس التاب بار\r\n- سيب مساحة إضافية في أسفل التاب بار على الآيفونات الحديثة\r\n- ماتحطش زرار في نص صف التابات — حطه في الآخر\r\n- مسافات أيقونات السايدبار من مقياس المسافات، مش توزيع على كل الارتفاع\r\n- خلّي العناصر السياقية القابلة للضغط واضحة بصريًا (لون/وضوح/شكل شيب)"
+      }
+    }
+  ]
+}

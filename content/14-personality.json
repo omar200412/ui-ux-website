@@ -1,0 +1,161 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "personality",
+  "order": 14,
+  "title": {
+    "en": "Personality",
+    "ar": "الشخصية (Personality)"
+  },
+  "intro": {
+    "en": "Connect colors, type, imagery and language through a product personality grounded in the brand and its audience.",
+    "ar": "اربط الألوان والخطوط والصور واللغة بشخصية للمنتج مبنية على البراند وجمهوره."
+  },
+  "sections": [
+    {
+      "id": "why-personality",
+      "title": {
+        "en": "Why this may be the most important chapter",
+        "ar": "ليه ده ممكن يكون أهم فصل في الكتاب؟"
+      },
+      "body": {
+        "en": "The author explicitly calls this the **most important chapter**, because personality is the thread connecting everything discussed earlier: type, color, language and imagery. Every design decision in the previous chapters ultimately served one goal: building a consistent product personality.",
+        "ar": "المؤلف بيقول صراحةً إن ده **أهم فصل** — لأن \"الشخصية\" هي الخيط اللي بيربط كل حاجة اتكلمنا عنها قبل كده (الخطوط، الألوان، اللغة، الصور). كل قرار تصميمي إنت أخدته في الفصول السابقة — كان في النهاية بيخدم هدف واحد: بناء شخصية متسقة للمنتج."
+      }
+    },
+    {
+      "id": "start-with-brand-identity",
+      "title": {
+        "en": "Personality starts with brand identity",
+        "ar": "الشخصية بتبدأ من هوية البراند"
+      },
+      "body": {
+        "en": "Before designing anything, you need to know:\n- What does the brand **care about**?\n- **Who** is the target audience?\n- **What** are their demographics: age, culture and income level?\n\nWithout these answers, it is impossible to choose colors, typefaces or imagery rationally.",
+        "ar": "قبل ما تصمّم أي حاجة، لازم تعرف:\n- البراند ده **بيهتم بإيه**؟\n- **مين** الجمهور المستهدف؟\n- **إيه** الخصائص الديموغرافية (سن، ثقافة، مستوى دخل)؟\n\nمن غير ما تجاوب على الأسئلة دي — مستحيل تختار ألوان أو خطوط أو صور بشكل منطقي."
+      }
+    },
+    {
+      "id": "design-and-emotion",
+      "title": {
+        "en": "Design is emotion",
+        "ar": "التصميم = مشاعر"
+      },
+      "body": {
+        "en": "> **\"Design is all about experience, feelings and emotions.\"**\n\nEvery decision, whether color, type or imagery, creates an **emotional response** in users. Your job is to understand the emotions the brand wants to evoke, then shape the product to evoke exactly those emotions.",
+        "ar": "> **\"التصميم كله عن التجربة والمشاعر والعواطف.\"**\n\nكل قرار تصميمي (لون، خط، صورة) بيثير **رد فعل عاطفي** عند المستخدم. شغلتك كمصمّم: تفهم أي مشاعر البراند عايز يثيرها — وتهندس المنتج عشان يثير بالظبط المشاعر دي."
+      }
+    },
+    {
+      "id": "good-vs-great-designers",
+      "title": {
+        "en": "Good designers and great designers",
+        "ar": "الفرق بين المصمم الكويس والمصمم العظيم"
+      },
+      "body": {
+        "en": "- **Good designers** choose things that look attractive.\n- **Great designers** choose based on **who will use the product**, rather than their personal taste.\n\n> To grow as a designer, stop basing decisions on your taste or the client's. Base them on actual users' needs.",
+        "ar": "- **المصمم الكويس**: بيختار حاجات شكلها حلو\n- **المصمم العظيم**: بيختار حاجات بناءً على **مين هيستخدم المنتج** — مش بناءً على ذوقه الشخصي\n\n> عشان تنمو كمصمّم — بطّل تبني قراراتك على ذوقك أو ذوق العميل. ابنيها على احتياجات المستخدم الفعلي."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** This matters greatly in Arab contexts, where clients sometimes have strong opinions based on personal taste. Your role is to explain that design decisions must serve the audience, rather than the person paying.",
+        "ar": "**[ملاحظة للسياق العربي]** ده مهم جدًا في السياق العربي — لأن العميل أحيانًا بيكون عنده رأي قوي جدًا مبني على ذوقه الشخصي. دورك إنك توصّل إن القرارات التصميمية لازم تخدم الجمهور مش الشخص اللي بيدفع."
+      }
+    },
+    {
+      "id": "human-personality-analogy",
+      "title": {
+        "en": "The human personality analogy",
+        "ar": "تشبيه الشخصية البشرية"
+      },
+      "body": {
+        "en": "Just as we describe people as playful, serious or childish based on how they speak, dress and behave, users judge digital products through their colors, typefaces, imagery and language.",
+        "ar": "زي ما الناس بنحكم عليها إنها \"مرحة\" أو \"جدية\" أو \"طفولية\" بناءً على إزاي بيتكلموا وبيلبسوا وبيتصرفوا — المنتج الرقمي برضو المستخدمين بيحكموا عليه بنفس الطريقة بناءً على الألوان والخطوط والصور واللغة."
+      }
+    },
+    {
+      "id": "personality-patterns",
+      "title": {
+        "en": "Personality patterns: examples, not a definitive classification",
+        "ar": "أنماط الشخصية (أمثلة مش تصنيف نهائي)"
+      },
+      "body": {
+        "en": "### 1. Playful\n- Vibrant, saturated colors.\n- Rounded sans-serif typefaces.\n- Colorful illustrations.\n- Playful, casual language.\n\n**Suitable for:** young audiences, educational apps and children's products.\n**Unsuitable for:** banks, financial institutions and products that need to convey trust and security.\n\nExample: \"Become a better student! Let's get started!\" for an educational app.\n\n### 2. Serious / formal\n- Calm, low-saturation colors.\n- Elegant typefaces, often serif.\n- Real photos rather than illustrations.\n- Formal language.\n\n**Suitable for:** banks, investments and luxury brands; any product intended to make users feel safe and confident.\n**Unsuitable for:** young audiences or children, because it lacks playfulness.\n\nExample: \"Invest in the future — start now\" for a financial platform.\n\n### 3. Neutral / plain\n- Very simple elements without extra styling.\n- Direct language focused on reading.\n- Works for almost any product; the safe choice.\n- Leaves little strong emotional impression: it is simply ordinary.\n\nExample: \"A collaboration platform for modern teams — start now\" for B2B SaaS.",
+        "ar": "### ١. المرحة (Playful)\n- ألوان نابضة/مشبّعة\n- خطوط مستديرة Sans Serif\n- رسوم توضيحية ملوّنة\n- لغة مرحة وكاجوال\n\n**مناسبة لـ**: جمهور شاب، تطبيقات تعليمية، منتجات للأطفال\n**مش مناسبة لـ**: بنوك، مؤسسات مالية، أي منتج محتاج يبث \"ثقة وأمان\"\n\nمثال: \"بقى أحسن طالب! يلا نبدأ!\" (تطبيق تعليمي)\n\n### ٢. الجدية/الرسمية (Serious / Formal)\n- ألوان هادية/منخفضة التشبّع\n- خطوط أنيقة (غالبًا Serif)\n- صور حقيقية بدل رسوم\n- لغة رسمية\n\n**مناسبة لـ**: بنوك، استثمارات، ماركات فاخرة — أي منتج هدفه يخلّي المستخدم يحس بالأمان والثقة\n**مش مناسبة لـ**: جمهور صغير/أطفال — بتفتقد المرح\n\nمثال: \"استثمر في المستقبل — ابدأ الآن\" (منصة مالية)\n\n### ٣. المحايدة/البسيطة (Neutral / Plain)\n- عناصر بسيطة جدًا بدون تنسيق زيادة\n- لغة مباشرة مركّزة على القراءة\n- بتنفع لأي منتج تقريبًا — الخيار \"الآمن\"\n- بس مش بتسيب أي انطباع عاطفي قوي — \"هي... عادية\"\n\nمثال: \"منصة تعاون للفرق الحديثة — ابدأ الآن\" (SaaS B2B)"
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** In the Arab world, Arabic serif typefaces, such as formal Naskh styles, convey formality and trust. Squared Kufic typefaces can suggest modernity and strength. Arabic type selection strongly affects personality.",
+        "ar": "**[ملاحظة للسياق العربي]** في العالم العربي، خطوط Serif العربية (زي خطوط النسخ الرسمية) بتدّي إحساس بالرسمية والثقة. بينما الخطوط الكوفية المربّعة ممكن تدّي إحساس بالحداثة والقوة. اختيار الخط العربي بيأثر في الشخصية بقوة."
+      }
+    },
+    {
+      "id": "personality-consistency",
+      "title": {
+        "en": "Consistency is essential",
+        "ar": "الاتساق أساسي"
+      },
+      "body": {
+        "en": "Just as a brand maintains its personality across social media, products and newsletters, a digital product must maintain **one personality** everywhere.\n\nMixing signals, such as a serious serif typeface with playful colorful illustrations, creates a strange, incoherent result. The author calls it plainly bad.",
+        "ar": "زي ما البراند بيحافظ على شخصيته في السوشيال ميديا والمنتج والنشرات — المنتج الرقمي لازم يحافظ على **شخصية واحدة** في كل مكان.\n\nخلط إشارات (خط Serif جدي + رسوم توضيحية مرحة ملوّنة) = شكل \"غريب\" وغير متماسك. المؤلف وصف ده بإنه \"سيئ صريح\"."
+      },
+      "callout": {
+        "type": "tip",
+        "en": "**Define the intended personality *before* starting the design.** This makes later decisions easier: typefaces, colors, photography versus illustration, and writing tone.",
+        "ar": "**حدد الشخصية المطلوبة *قبل* ما تبدأ التصميم** — وده هيسهّل كل قرار بعد كده (خطوط، ألوان، صور ولا رسوم، لهجة الكتابة)."
+      }
+    },
+    {
+      "id": "room-for-innovation",
+      "title": {
+        "en": "Do not feel boxed in",
+        "ar": "متحسّش إنك محبوس"
+      },
+      "body": {
+        "en": "Despite these specific examples, the author encourages **innovation**. The strongest brands distinguish themselves with a unique personality instead of copying competitors.",
+        "ar": "رغم الأمثلة المحددة — المؤلف بيشجّع على **الابتكار**. أقوى البراندات هي اللي بتميّز نفسها بشخصية فريدة، مش اللي بتقلّد المنافسين."
+      }
+    },
+    {
+      "id": "personality-cheatsheet",
+      "title": {
+        "en": "Quick reference cheatsheet",
+        "ar": "ورقة مرجعية سريعة (Cheatsheet)"
+      },
+      "body": {
+        "en": "| Element | Playful ← | → Serious |\n|---|---|---|\n| **Colors** | Saturated and vibrant | Calm and low saturation |\n| **Typefaces** | Rounded sans serif | Serif or elegant typefaces |\n| **Element curvature** | More rounded | Sharper |\n| **Icons** | Rounded | Sharp |\n| **Language** | Friendly and casual | Formal and reserved |\n| **Imagery** | Illustrations | Real photos |\n\n**Language examples for the same investment platform:**\n- Playful: \"Hey! We're a group of friends who love investing. Want to join us?\"\n- Serious: \"Welcome. We are an exclusive community of stock investors.\"",
+        "ar": "| العنصر | مرح ← | ← جدي |\n|---|---|---|\n| **الألوان** | مشبّعة ونابضة | هادية ومنخفضة التشبّع |\n| **الخطوط** | Sans Serif مستديرة | Serif أو خطوط أنيقة |\n| **انحناء العناصر** | مستدير أكتر | حاد أكتر |\n| **الأيقونات** | مستديرة | حادة |\n| **اللغة** | ودودة وكاجوال | رسمية ومتحفّظة |\n| **الصور** | رسوم توضيحية | صور حقيقية |\n\n**مثال على اللغة لنفس المنتج (منصة استثمار):**\n- مرح: \"أهلاً! إحنا مجموعة صحاب بنحب نستثمر. عايز تشاركنا؟\"\n- جدي: \"مرحبًا بك. نحن مجتمع حصري من المستثمرين في الأسهم.\""
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** Dialect has a major effect on personality in Arabic writing. Egyptian colloquial language feels playful and close; formal standard Arabic conveys seriousness and respect; a Gulf dialect may create a very different feeling. Choosing dialect and language register is one of the strongest personality tools in Arabic products, even stronger than in English, because the difference between colloquial and standard Arabic is much greater than the difference between casual and formal English.",
+        "ar": "**[ملاحظة للسياق العربي]** اللهجة في الكتابة العربية بتأثر في الشخصية بشكل كبير جدًا. عامية مصرية = مرح وقرب. فصحى رسمية = جدية واحترام. ولهجة خليجية ممكن تدّي إحساس مختلف تمامًا. اختيار اللهجة والمستوى اللغوي هو واحد من أقوى أدوات الشخصية في المنتجات العربية — أقوى حتى من نظيره في الإنجليزية، لأن الفرق بين العامية والفصحى أكبر بكتير من الفرق بين Casual وFormal English."
+      }
+    },
+    {
+      "id": "core-message",
+      "title": {
+        "en": "The core message",
+        "ar": "الرسالة الأساسية"
+      },
+      "body": {
+        "en": "> **Never base a design decision on your personal taste. Base it on the target audience and the emotional effect the brand wants to achieve.**\n\nFor example, personally liking pink, rounded typefaces and illustrations does not make them suitable for a banking platform.",
+        "ar": "> **أبدًا متبني قرار تصميمي على ذوقك الشخصي — ابنيه على الجمهور المستهدف والتأثير العاطفي اللي البراند عايز يحققه.**\n\nمثال: لو إنت شخصيًا بتحب اللون الوردي والخطوط المستديرة والرسوم التوضيحية — ده مش معناه إنهم مناسبين لمنصة بنكية."
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Personality connects every design decision; define it from the start.\n- Learn the brand's values and audience **before** making visual decisions.\n- Every design choice evokes emotions; choose deliberately.\n- Decisions must serve users, rather than your taste or the client's.\n- Keep one consistent personality across the product; mixing signals creates chaos.\n- Define personality before opening a design tool.\n- Innovate; the strongest brands do not imitate.\n- Use the cheatsheet as guidance, rather than a law.\n\n---",
+        "ar": "- الشخصية هي الخيط اللي بيربط كل قرارات التصميم — حددها من البداية\n- اعرف قيم البراند وجمهوره **الأول** قبل أي قرار بصري\n- كل قرار تصميمي بيثير مشاعر — اختار بوعي\n- قراراتك لازم تخدم المستخدم — مش ذوقك أو ذوق العميل\n- شخصية واحدة متسقة في كل المنتج — الخلط = فوضى\n- حدد الشخصية قبل ما تفتح أداة التصميم\n- ابتكر — أقوى البراندات مش بتقلّد\n- استخدم الورقة المرجعية كدليل — مش كقانون\n\n---"
+      },
+      "callout": {
+        "type": "note",
+        "en": "> **Closing note:** this content is an educational reference for Arab designers. Its purpose is not literal translation, but understanding the principles and applying them in your context. Every **[Note for the Arabic context]** marker means that the original principle needs adaptation or additional awareness when designing in Arabic or for Arab audiences.",
+        "ar": "> **ملاحظة ختامية**: المحتوى ده مرجع تعليمي للمصممين العرب. الهدف مش ترجمة حرفية — الهدف إنك تفهم المبادئ وتطبّقها في سياقك. كل ما فيه علامة **[ملاحظة للسياق العربي]** — ده معناه إن المبدأ الأصلي محتاج تعديل أو وعي إضافي لما بتصمّم بالعربي أو لجمهور عربي."
+      }
+    }
+  ]
+}

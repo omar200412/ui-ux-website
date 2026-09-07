@@ -1,0 +1,59 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "ending",
+  "order": 21,
+  "title": {
+    "en": "Ending",
+    "ar": "الخاتمة"
+  },
+  "intro": {
+    "en": "Congratulations—you now have a practical foundation for making clearer, more consistent interfaces and for continuing to develop your own judgment.",
+    "ar": "لو وصلت لهنا يبقى فعلًا عديت رحلة كاملة في أساسيات تصميم الواجهات. المعلومات اللي اتغطت في الكتاب ده مش اختراعات جديدة — تصميم الواجهات مجال موجود من زمان، ومعظم اللي اتقال هو تجميع ونظرة شاملة على ممارسات مستقرة ومعروفة في المجال."
+  },
+  "sections": [
+    {
+      "id": "not-definitive",
+      "title": {
+        "en": "This book is not definitive",
+        "ar": "الكتاب ده مش نهائي"
+      },
+      "body": {
+        "en": "Design changes with technology, culture and context. Treat these principles as a strong starting point, then test them against users, constraints and the evolving products around you.",
+        "ar": "الكتاب متصمّم كـ \"وثيقة حية\" — يعني بيتحدّث مع الوقت بفصول جديدة وتصحيحات، والتحديثات بتوصل مجانًا لأي حد اشتراه."
+      }
+    },
+    {
+      "id": "sources-note",
+      "title": {
+        "en": "A note about sources",
+        "ar": "ملاحظة عن المصادر"
+      },
+      "body": {
+        "en": "Continue learning from books, articles, design systems and real interfaces. Compare sources critically and trace advice back to evidence rather than repeating rules without context.",
+        "ar": "- الصور: إما ملتقطة شخصيًا أو من unsplash.com\r\n- الرسومات التوضيحية: من storyset.com\r\n- لقطات شاشة التطبيقات: من mobbin.design"
+      }
+    },
+    {
+      "id": "final-word",
+      "title": {
+        "en": "The final word",
+        "ar": "الكلمة الأخيرة"
+      },
+      "body": {
+        "en": "Practice deliberately, stay curious and make work that helps people. Strong interfaces come from many small, thoughtful decisions repeated consistently.",
+        "ar": "تصميم الواجهات مجال بيتطور باستمرار. المبادئ اللي اتعلمتها هنا هي الأساس — لكن مافيش بديل عن الممارسة اليومية، التجريب، والتعلم من الشغل الحقيقي مع عملاء حقيقيين.\r\n\r\n**اللي يميّزك كمصمّم مش إنك عارف المبادئ — ده إنك بتطبّقها كل يوم بشكل أحسن من اللي قبله.**"
+      }
+    },
+    {
+      "id": "ending-key-points",
+      "title": {
+        "en": "Key points",
+        "ar": "النقاط المفتاحية"
+      },
+      "body": {
+        "en": "- Use the principles as tools, not rigid laws.\n- Keep studying real products and reliable sources.\n- Practice, seek feedback and revise.\n- Optimize for people and their goals.",
+        "ar": "- المبادئ اللي في الكتاب ده مش نظريات جديدة — هي تجميع لممارسات مستقرة في المجال\r\n- التعلم مابيوقفش عند آخر صفحة — الممارسة اليومية هي اللي بتفرق\r\n- ابحث دايمًا عن مصادر جديدة، تابع المجتمع، وشارك اللي بتتعلمه\r\n- **[ملاحظة للسياق العربي]** المحتوى العربي عن تصميم الواجهات لسه بيكبر. لو بتتعلم وبتشارك بالعربي، إنت مش بس بتفيد نفسك — إنت بتساهم في بناء مجتمع تصميم عربي أقوى. وده في حد ذاته قيمة كبيرة.\r\n\r\n---\r\n\r\n> **ملاحظة ختامية:** المحتوى ده مكتوب كمرجع تعليمي أصلي بالعربية المصرية المبسطة، مبني على المبادئ المذكورة في كتاب \"UI Design Principles\" لـ Michael Filipiuk. الهدف هو تقديم المعرفة بشكل يناسب المصمّم العربي مع مراعاة الفروقات الثقافية واللغوية والتقنية (خصوصًا تصميم RTL والطباعة العربية)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "forms",
+  "order": 8,
+  "title": {
+    "en": "Forms",
+    "ar": "النماذج (Forms)"
+  },
+  "intro": {
+    "en": "Design forms that users can understand and complete, with suitable controls, visible labels and immediate feedback.",
+    "ar": "صمم نماذج المستخدم يفهمها ويكملها، بعناصر مناسبة وتسميات واضحة وتغذية راجعة فورية."
+  },
+  "sections": [
+    {
+      "id": "what-are-forms",
+      "title": {
+        "en": "What are forms, and why use them?",
+        "ar": "إيه هي النماذج وليه بنستخدمها؟"
+      },
+      "body": {
+        "en": "A form is how users send information to a server: logging in, entering an address or providing payment details. Think of it as the digital version of paperwork you fill out at a government office. If a form is long or complicated, many people abandon it halfway through, which means you have lost the user.",
+        "ar": "النموذج (Form) هو الطريقة اللي المستخدم بيبعت بيها معلومات للسيرفر — يعني لما بيعمل تسجيل دخول، أو يكتب عنوانه، أو يدخّل بيانات الدفع. تخيّل إن النموذج هو النسخة الرقمية من الورق اللي بتملاه في أي مصلحة حكومية. والمشكلة إن لو النموذج طويل أو معقّد، ناس كتير هتسيبه في النص — وده معناه إنك خسرت المستخدم."
+      }
+    },
+    {
+      "id": "conversion-rate",
+      "title": {
+        "en": "The main goal: conversion rate",
+        "ar": "الهدف الأساسي: معدّل الإتمام (Conversion Rate)"
+      },
+      "body": {
+        "en": "Your goal as a designer is for users to **complete** the form and press \"Submit.\" Success is measured by the **conversion rate**: if 1,000 people open a form and only 100 complete it, the rate is 10%. Every tip in this chapter is intended to increase that number.",
+        "ar": "هدفك كمصمّم إن المستخدم **يكمّل** النموذج ويدوس \"إرسال\". النجاح بيتقاس بـ **معدّل الإتمام**: لو ١٠٠٠ واحد فتحوا النموذج و١٠٠ بس كمّلوه، يبقى المعدّل ١٠٪. كل نصيحة في الفصل ده موجودة عشان ترفع الرقم ده."
+      }
+    },
+    {
+      "id": "form-elements",
+      "title": {
+        "en": "Form elements: each has a purpose",
+        "ar": "عناصر النموذج — كل عنصر ليه استخدام"
+      },
+      "body": {
+        "en": "### Text field\nThe general-purpose control for names, emails, passwords and numbers. Password fields hide entered text with dots.\n\n### Dropdown\nFor **long lists**, such as countries or governorates. Its structure is a text field plus an arrow. **With four options or fewer, use radio buttons instead of a dropdown.**\n\nWhy? Dropdowns hide options and require an extra click to open. Radio buttons show all the options at once.\n\n### Radio buttons\nFor **short lists** of 2–4 items where only one selection is allowed.\n\n### Checkboxes\nSimilar to radio buttons, but allow selecting **more than one item** at a time.\n\n### Switches\nSimilar to checkboxes, but used for **settings** that do not need a \"Save\" button, such as Wi-Fi or Bluetooth. A switch applies a change immediately; a checkbox requires the user to submit afterward.\n\n### Slider\nFor choosing an approximate numeric value, such as a price range. Less precise than typing a number. **Best practice:** place two text fields beside the slider so users can enter exact values.",
+        "ar": "### حقل النص (Text Field)\nده العنصر العام — للأسماء، الإيميلات، كلمات السر، الأرقام. حقول كلمة السر بتخفي اللي بيتكتب بنقط.\n\n### القائمة المنسدلة (Dropdown)\nللقوائم **الطويلة** — زي اختيار الدولة أو المحافظة. تركيبتها = حقل نص + سهم. **لو عندك ٤ اختيارات أو أقل، متستخدمش dropdown — استخدم Radio Buttons.**\n\nليه؟ لأن الـ dropdown بيخبّي الاختيارات ومحتاج كليك زيادة عشان يفتح. لكن الـ Radio Buttons بتعرض كل الاختيارات قدام المستخدم مرة واحدة.\n\n### أزرار الاختيار الفردي (Radio Buttons)\nللقوائم **القصيرة** (٢–٤ عناصر)، واختيار واحد بس مسموح.\n\n### صناديق التأشير (Checkboxes)\nزي الـ Radio Buttons بس بتسمح باختيار **أكتر من عنصر** في نفس الوقت.\n\n### المفاتيح (Switches)\nشبه الـ Checkboxes بس بتستخدم في **الإعدادات** اللي مش محتاجة زرار \"حفظ\" — زي تشغيل الواي فاي أو البلوتوث. الفرق: Switch = التغيير بيحصل فورًا. Checkbox = محتاج المستخدم يدوس \"إرسال\" بعدها.\n\n### شريط التمرير (Slider)\nلاختيار قيمة رقمية تقريبية — زي نطاق السعر. مش دقيق زي إنك تكتب الرقم بإيدك. **أفضل ممارسة**: حط حقلين نص جنب الـ Slider عشان اللي عايز يكتب رقم محدد يقدر."
+      }
+    },
+    {
+      "id": "form-design-tips",
+      "title": {
+        "en": "Form design tips",
+        "ar": "نصائح تصميم النماذج"
+      },
+      "body": {
+        "en": "### 1. Keep text fields simple and boring\nDo not decorate fields with shadows or prominent white backgrounds, which make them look like buttons or cards. A field should look like a **field**: a simple bordered rectangle.\n\n### 2. Keep labels visible\nPlaceholder text disappears when users start typing. Without a persistent label, users may forget the field's purpose. The **floating label** pattern, which moves the label upward as typing begins, is an excellent solution used by Google and Adidas.\n\n### 3. Size the field for its expected content\nA three-digit CVC field does not need to be as wide as a full card-number field. A width that matches the content gives users a visual clue about the required data.\n\n### 4. Icons inside fields\nA user icon beside a username field or a lock beside a password helps users scan the form more quickly.\n\n### 5. Keep the form as short as possible\nRemove every unnecessary field. For example, email and password are enough for login; you do not also need a username and surname.\n\n### 6. Remind users of the value\nBefore the email field in a newsletter form, add a heading explaining the benefit: \"Subscribe to our weekly newsletter on the latest design trends.\"\n\n### 7. Social sign-in\nOffer sign-in with Google, Apple or Facebook to reduce friction significantly.\n\n### 8. Design every state of every element\nFor each field, design inactive, focused, writing, disabled, success and error states. The same applies to checkboxes and radio buttons.\n\n### 9. Break long forms into steps\nWith five or more required fields, split them across multiple screens with a progress bar. This reduces the perceived effort even when the number of fields stays the same.\n\n### 10. Use one column\nKeep the form in one column to allow a natural top-to-bottom eye movement.\n\n### 11. Explain why you need sensitive data\nWhen requesting a phone number, add an information icon or a small explanation such as \"We need your number to send a confirmation code.\" This builds trust and encourages more users to complete the field.\n\n### 12. Write \"(optional)\" instead of an asterisk\nInstead of placing * beside required fields, which not everyone understands, write \"(optional)\" beside optional fields. It is clearer and simpler.\n\n### 13. Group similar fields\nName, email and phone form one group. Address, city and postal code form another. Add space between the groups so users understand the division visually.\n\n### 14. Real-time validation\nAs users finish a field, immediately show any error, such as an email missing @. **The worst possible experience:** users complete a form, submit it, the page reloads, and they see an error with all their data lost. The book calls this a disastrous user experience.",
+        "ar": "### ١. خلّي حقول النص بسيطة وممّلة\nمتحاولش تزيّن الحقل بظلال أو خلفيات بيضاء بارزة — ده هيخلّيه شبه زرار أو كارت. الحقل لازم يبان إنه **حقل** — مستطيل بسيط بحدود.\n\n### ٢. خلّي التسمية (Label) ظاهرة دايمًا\nالـ Placeholder (النص الخافت جوه الحقل) بيختفي لما المستخدم يبدأ يكتب. لو معندكش Label ثابت، المستخدم هينسى الحقل ده كان لإيه. **نمط الـ Floating Label** (اللي بيتحرك لفوق لما تبدأ تكتب) حل ممتاز — بتستخدمه Google وAdidas.\n\n### ٣. حجم الحقل يناسب المحتوى المتوقّع\nحقل الـ CVC (٣ أرقام) مش محتاج يبقى بعرض حقل رقم الكارت الكامل. لما عرض الحقل يتناسب مع المحتوى، ده بيدّي إشارة بصرية للمستخدم عن نوع البيانات المطلوبة.\n\n### ٤. أيقونات جوه الحقول\nأيقونة مستخدم جنب حقل اسم المستخدم، أو أيقونة قفل جنب كلمة السر — بتساعد المستخدم يقرأ النموذج أسرع عن طريق المسح البصري (Scanning).\n\n### ٥. خلّي النموذج أقصر ما يمكن\nكل حقل مش ضروري — شيله. مثلاً: لو عايز تسجيل دخول، إيميل + كلمة سر كفاية. مش محتاج اسم المستخدم واسم العيلة كمان.\n\n### ٦. فكّر المستخدم بالقيمة\nقبل حقل الإيميل في نموذج اشتراك النشرة، حط عنوان يوضّح الفايدة — \"اشترك في نشرتنا الأسبوعية عن أحدث اتجاهات التصميم\".\n\n### ٧. تسجيل الدخول عبر السوشيال ميديا\nوفّر تسجيل دخول بـ Google أو Apple أو Facebook. ده بيقلل الاحتكاك بشكل كبير.\n\n### ٨. صمّم كل حالة لكل عنصر\nلكل حقل، لازم تصمّم: غير نشط (Inactive)، مركّز عليه (Focused)، بيتكتب فيه (Writing)، معطّل (Disabled)، مكتمل بنجاح (Success)، مكتمل بخطأ (Error). نفس الكلام للـ Checkboxes والـ Radio Buttons.\n\n### ٩. قسّم النماذج الطويلة لخطوات\nلو عندك ٥ حقول مطلوبة أو أكتر، قسّمهم على أكتر من شاشة مع شريط تقدّم (Progress Bar). ده بيقلل الإحساس بالجهد حتى لو عدد الحقول نفسه.\n\n### ١٠. عمود واحد بس\nخلّي النموذج في عمود واحد — ده بيسمح بحركة عين طبيعية من فوق لتحت.\n\n### ١١. وضّح ليه بتطلب بيانات حساسة\nلو بتطلب رقم التليفون، حط أيقونة معلومات أو نص صغير يوضّح \"محتاجين رقمك عشان نبعتلك كود التأكيد\". ده بيزوّد الثقة وبيخلّي ناس أكتر تملا الحقل.\n\n### ١٢. اكتب \"(اختياري)\" بدل النجمة\nبدل ما تحط * جنب الحقول المطلوبة (مش كل الناس بتفهم إنها تعني \"مطلوب\")، اكتب \"(اختياري)\" جنب الحقول الاختيارية. أوضح وأبسط.\n\n### ١٣. جمّع الحقول المتشابهة\nالاسم والإيميل والتليفون = مجموعة. العنوان والمدينة والرمز البريدي = مجموعة تانية. حط مسافة بين المجموعتين عشان المستخدم يفهم التقسيم بصريًا.\n\n### ١٤. التحقق الفوري (Real-time Validation)\nلما المستخدم يكمّل حقل — ورّيله فورًا لو فيه خطأ (زي إيميل ناقص @). **أسوأ تجربة ممكنة**: إن المستخدم يملا النموذج كله، يدوس إرسال، الصفحة تتحمّل من الأول، ويلاقي رسالة خطأ وكل البيانات ضاعت. ده \"تجربة مستخدم كارثية\" بتعبير الكتاب."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** In Arabic RTL interfaces, eyes move from right to left, but the single-column principle still applies. Primary buttons may go on the **left** instead of the right because the right thumb can reach them more easily in RTL phone interfaces, depending on your design.",
+        "ar": "**[ملاحظة للسياق العربي]** في الواجهات العربية RTL، حركة العين بتكون من يمين لشمال، بس مبدأ العمود الواحد يفضل صحيح. الأزرار الرئيسية ممكن تتحط على **الشمال** بدل اليمين لأن الإبهام الأيمن في الهاتف بيوصلها أسهل في واجهات RTL — بس ده بيعتمد على تصميمك."
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Aim for the highest possible conversion rate.\n- Each element has a purpose: dropdowns for long lists, radio buttons for short lists, switches for immediate settings.\n- Shorter forms mean higher completion rates.\n- Design every state: six states for each field.\n- Use one column, immediate validation and multiple steps for long forms.",
+        "ar": "- هدفك = أعلى معدّل إتمام ممكن\n- كل عنصر ليه استخدام — Dropdown للقوائم الطويلة، Radio للقصيرة، Switch للإعدادات الفورية\n- النموذج الأقصر = معدّل إتمام أعلى\n- صمّم كل الحالات (٦ حالات لكل حقل)\n- عمود واحد + تحقق فوري + تقسيم النماذج الطويلة لخطوات"
+      }
+    }
+  ]
+}

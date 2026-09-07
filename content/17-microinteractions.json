@@ -1,0 +1,103 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "microinteractions",
+  "order": 17,
+  "title": {
+    "en": "Microinteractions",
+    "ar": "التفاعلات الدقيقة"
+  },
+  "intro": {
+    "en": "Small, purposeful responses make interfaces feel understandable and alive. Motion should communicate state, causality and feedback—not compete for attention.",
+    "ar": "التفاعلات الدقيقة (Microinteractions) هي الحاجات الصغيرة اللي بتحوّل تطبيق \"شغال\" لتطبيق \"ممتع\". هي في كل مكان — لما بتضغط لايك والقلب بيتملي، لما بتسحب شريط الفيديو، لما بتشوف السكيليتون سكرين وأنت مستني التحميل. خلّينا نفهمها صح."
+  },
+  "sections": [
+    {
+      "id": "animation-vs-microinteraction",
+      "title": {
+        "en": "Animation versus microinteraction",
+        "ar": "الفرق بين الأنيميشن والتفاعل الدقيق"
+      },
+      "body": {
+        "en": "Animation is any change over time. A microinteraction is a small response tied to one user action or system event, such as a button acknowledging a tap or a field revealing an error.",
+        "ar": "- **الأنيميشن (Animation):** أي تغيير في حالة عنصر مع الوقت — ممكن يكون في المكان، الدوران، اللون، الشفافية، أو الحجم. ممكن يكون وظيفي أو مجرد جمال.\r\n- **التفاعل الدقيق (Microinteraction):** نوع محدد من الأنيميشن — وده الأهم في تصميم الواجهات. الفرق الجوهري: التفاعل الدقيق بيحصل **كنتيجة مباشرة لفعل واعي من المستخدم**. الأنيميشن العادية ممكن تحصل لوحدها من غير ما المستخدم يعمل حاجة."
+      }
+    },
+    {
+      "id": "why-microinteractions",
+      "title": {
+        "en": "Why use microinteractions?",
+        "ar": "ليه بنستخدم التفاعلات الدقيقة؟"
+      },
+      "body": {
+        "en": "Use them to confirm an action, reveal state, show cause and effect, direct attention or make waiting understandable. If movement does not help users interpret the interface, it is decoration.",
+        "ar": "**السبب الأساسي: التغذية الراجعة (Feedback).**\r\n\r\nلما المستخدم يعمل فعل معين، هو محتاج تأكيد إن الفعل ده اتسجّل ونجح. مثلًا في جيميل، لما تضغط \"إرسال\"، بتشوف رسالة \"تم الإرسال\" — ده بيطمّنك إنك ماضغطتش غلط.\r\n\r\n> \"أهم غرض للتفاعل الدقيق هو إنه يدّي المستخدم تغذية راجعة عن الفعل اللي عمله.\"\r\n\r\n**والقاعدة الذهبية:** التفاعل الدقيق لازم يفضل \"دقيق\" فعلًا. يكون سريع، حلو، ومايشتتش عن المحتوى الأساسي. ماتطوّلش فيه عشان يبان أحلى — خلّيه قصير وممتع.\r\n\r\nمثال تحفة: أنيميشن اللايك في تويتر (القلب الأحمر) — سريعة، ممتعة، لكن مابتعطلكش."
+      }
+    },
+    {
+      "id": "easing",
+      "title": {
+        "en": "Choose the right easing",
+        "ar": "أنواع الحركة (Easing)"
+      },
+      "body": {
+        "en": "**Linear** motion fits continuous, mechanical movement. **Ease-out** is a strong default for elements entering or responding because it starts quickly and settles gently. **Ease-in** suits exits. **Ease-in-out** works for elements moving between two visible positions.",
+        "ar": "#### خطي (Linear)\r\nسرعة ثابتة من الأول للآخر. في نص الوقت، العنصر بيكون في نص المسافة بالظبط.\r\n\r\n**ليه مش كويس؟** لأنه بيحسّس المستخدم إن الحركة مش طبيعية. في الحقيقة مافيش حاجة بتتحرك بسرعة ثابتة — العربية بتبدأ ببطء وبعدين تسرّع، وبتبطّأ قبل ما توقف.\r\n\r\n#### تسارع (Ease In)\r\nبيبدأ بطيء وبيسرّع — زي عربية بتتحرك من الثبات. في نص الوقت، العنصر لسه قريب من البداية.\r\n\r\n#### تباطؤ (Ease Out)\r\nبيبدأ سريع وبيبطّأ — زي عربية بتفرمل. في نص الوقت، العنصر قرّب من النهاية.\r\n\r\n**القاعدة:** ماتستخدمش Linear لوحده أبدًا لو عايز حركة طبيعية — Ease In وEase Out (أو الاتنين مع بعض) هما الأفضل."
+      }
+    },
+    {
+      "id": "duration",
+      "title": {
+        "en": "Choose an appropriate duration",
+        "ar": "المدة المناسبة"
+      },
+      "body": {
+        "en": "Interface motion should usually be brief enough to preserve momentum. Small feedback can take about 100–200 ms; larger transitions can take roughly 200–500 ms. Distance, size and complexity matter more than a single magic number.",
+        "ar": "مافيش قاعدة صارمة، لكن النصيحة العملية: **خلّي التفاعلات الدقيقة أقل من ١٠٠٠ مللي ثانية (ثانية واحدة)**. المستخدمين بيتحركوا بسرعة في التطبيقات — الأنيميشن مالهاش حق تبطّأهم."
+      }
+    },
+    {
+      "id": "microinteraction-examples",
+      "title": {
+        "en": "Practical examples",
+        "ar": "أمثلة عملية"
+      },
+      "body": {
+        "en": "Useful examples include pressed button states, toggles that visibly change state, pull-to-refresh feedback, progress indicators, validated form fields, drag-and-drop placement and a subtle confirmation after saving.",
+        "ar": "- **زرار اللايك في فيسبوك:** من فاضي لمليان\r\n- **شريط التقدم في يوتيوب:** السحب نفسه تفاعل دقيق\r\n- **سبينرات التحميل / Skeleton Screens:** بتوصّل رسالة \"جاري التحميل\"\r\n- **السويتشات والتشيك بوكسات:** أنيميشن بسيطة وقصيرة\r\n- **تغيير أيقونة التاب بار:** حركة خفيفة المستخدم مش هيحس بيها بوعي لكنها بتضيف متعة\r\n- **أنيميشن الـ Hover على الأزرار:** بتأكد إن العنصر قابل للضغط"
+      }
+    },
+    {
+      "id": "avoid-showreel-motion",
+      "title": {
+        "en": "Beware of showreel animation",
+        "ar": "تحذير مهم: أنيميشن Dribbble الفخمة"
+      },
+      "body": {
+        "en": "Highly polished concept animations often look impressive in a short video but become slow and exhausting in repeated use. Judge motion in a real flow, on a real device, after the novelty has worn off.",
+        "ar": "الأنيميشن التلاتية الأبعاد المبهرة اللي بتشوفها على Dribbble وإنستجرام غالبًا مش عملية في المنتجات الحقيقية. لو حاولت تنفّذها في تطبيق حقيقي، ممكن:\r\n- التطبيق يبقى بطيء\r\n- الموقع ياخد وقت في التحميل\r\n- المستخدمين يمسحوا التطبيق أو يسيبوا الموقع\r\n\r\n**الدرس:** الأنيميشن الفخمة التلاتية الأبعاد صعبة في التنفيذ وممكن تأذي الأداء الفعلي. في الإنتاج الحقيقي، فضّل البساطة والسرعة على الإبهار."
+      }
+    },
+    {
+      "id": "motion-tools",
+      "title": {
+        "en": "Suggested tools",
+        "ar": "أدوات مقترحة"
+      },
+      "body": {
+        "en": "Prototype simple transitions in your interface design tool. For more advanced motion, use a dedicated animation or prototyping tool—but keep the implementation constraints and reduced-motion accessibility in view.",
+        "ar": "- **Figma** — فيه خطة مجانية وأدوات أنيميشن كويسة مدمجة، غالبًا كافية لمعظم الاحتياجات\r\n- **Principle** — أداة متخصصة في تصميم الحركة، أقوى من Figma في المجال ده\r\n- **Adobe After Effects** — أقوى أداة أنيميشن عمومًا، لكنها مش متخصصة في الـ UI/UX"
+      }
+    },
+    {
+      "id": "microinteractions-key-points",
+      "title": {
+        "en": "Key points",
+        "ar": "النقاط المفتاحية"
+      },
+      "body": {
+        "en": "- Tie motion to feedback, state or navigation.\n- Select easing based on how an element enters, exits or travels.\n- Keep frequent interactions fast.\n- Test complete flows instead of isolated showreels.\n- Respect reduced-motion preferences.",
+        "ar": "- وظيفة كل تفاعل دقيق = تأكيد التغذية الراجعة لفعل المستخدم\r\n- خلّي التفاعلات قصيرة (أقل من ثانية) ومش مشتتة\r\n- ماتستخدمش Linear لوحده — فضّل Ease In / Ease Out\r\n- ماتلاحقش أنيميشن Dribbble الفخمة في المنتجات الحقيقية — الأداء أهم\r\n- المنتج ممكن يشتغل من غير تفاعلات دقيقة تقنيًا، لكنها اللي بتخليه \"ممتع\" — وده بيرجعنا لتعريف التصميم الجيد: قابل للاستخدام + ممتع"
+      }
+    }
+  ]
+}

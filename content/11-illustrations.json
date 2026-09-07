@@ -1,0 +1,97 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "illustrations",
+  "order": 11,
+  "title": {
+    "en": "Illustrations",
+    "ar": "الرسوم التوضيحية (Illustrations)"
+  },
+  "intro": {
+    "en": "Use illustrations to explain abstract ideas and support key product moments with a consistent visual style.",
+    "ar": "استخدم الرسوم لشرح الأفكار المجرّدة ودعم اللحظات المهمة في المنتج بأسلوب بصري متسق."
+  },
+  "sections": [
+    {
+      "id": "why-illustrations",
+      "title": {
+        "en": "Why use illustrations?",
+        "ar": "ليه بنستخدم رسوم توضيحية؟"
+      },
+      "body": {
+        "en": "Illustrations present ideas visually and abstractly. A good illustration can say more than a thousand words and be easier to understand because of its simple shapes.",
+        "ar": "الرسوم التوضيحية بتقدّم أفكار بصريًا وبشكل مجرّد. رسمة كويسة ممكن تقول أكتر من ألف كلمة، وبتكون أسهل في الاستيعاب بسبب أشكالها البسيطة."
+      }
+    },
+    {
+      "id": "illustrations-vs-photos",
+      "title": {
+        "en": "Illustrations versus photos",
+        "ar": "الرسوم مقابل الصور"
+      },
+      "body": {
+        "en": "Both explain visually, but:\n- **Photos** are realistic and specific.\n- **Illustrations** are abstract and unrestricted. An illustrator can depict any concept, even an abstract one such as \"boosting creativity.\" Try photographing that!",
+        "ar": "الاتنين بيشرحوا بصريًا، بس:\n- **الصور** = واقعية ومحددة\n- **الرسوم** = مجرّدة ومالهاش حدود — الرسام يقدر يجسّد أي مفهوم، حتى لو مجرّد (\"تعزيز الإبداع\" — حاول تصوّر ده فوتوغرافيًا!)"
+      }
+    },
+    {
+      "id": "where-to-use-illustrations",
+      "title": {
+        "en": "Where to use illustrations",
+        "ar": "فين تستخدم الرسوم؟"
+      },
+      "body": {
+        "en": "### Landing pages\nTo explain abstract concepts or features that are hard to photograph.\n\n### Onboarding\nOnboarding illustrations **should not try to explain every feature in detail**. It is better to convey the overall feeling and mood, letting users learn features by using the product.\n\n### Achievements and rewards (gamification)\nLike Duolingo's achievement badges: small, lively illustrations make repeated achievements enjoyable and motivating.\n\n### Empty states\nWhen there is no content to display, an illustration, short text and an action button make the empty moment enjoyable instead of frustrating.\n\n### 404 pages\nAs Disney does, a friendly illustration, clever copy and a search bar help lost users find their way.",
+        "ar": "### صفحات الهبوط (Landing Pages)\nلشرح مفاهيم أو ميزات مجرّدة مش سهل تصويرها.\n\n### التعريف بالتطبيق (Onboarding)\nالرسوم في شاشات التعريف **متحاولش تشرح كل ميزة بالتفصيل** — الأفضل إنها تنقل الإحساس العام والمزاج، وتسيب المستخدم يتعلّم الميزات بالاستخدام.\n\n### الإنجازات والمكافآت (Gamification)\nزي شارات الإنجاز في Duolingo — رسوم صغيرة نابضة بالحياة بتخلّي تكرار الإنجازات ممتع ومحفّز.\n\n### الحالات الفارغة (Empty States)\nلما مفيش محتوى يتعرض — رسمة + نص قصير + زرار فعل بيخلّي اللحظة \"الفارغة\" ممتعة بدل ما تكون محبطة.\n\n### صفحات ٤٠٤\nزي ما Disney بتعمل — رسمة لطيفة + نص ذكي + شريط بحث بيساعد المستخدم التايه يلاقي طريقه."
+      }
+    },
+    {
+      "id": "where-to-avoid-illustrations",
+      "title": {
+        "en": "Where to avoid illustrations",
+        "ar": "فين متستخدمش رسوم؟"
+      },
+      "body": {
+        "en": "### Luxury and serious brands\nIllustrations are inherently playful. For luxury yachts, jewelry or banks, real photos are more suitable, serious and credible. Illustrations tend to appeal to younger audiences.\n\n### The actual product being sold\n**Never** replace a real photo of the product users will buy with an illustration. Buyers need to see exactly what they will receive. Illustrations are acceptable elsewhere in the same product, such as a 404 or onboarding page, but not on the product card itself.",
+        "ar": "### البراندات الفخمة والجدية\nالرسوم التوضيحية فيها طاقة \"مرحة\" بطبيعتها. لو بتصمّم ليخوت فاخرة أو مجوهرات أو بنوك — الصور الحقيقية أنسب وأكتر جدية ومصداقية. الرسوم بتميل للجمهور الأصغر سنًا.\n\n### المنتج الحقيقي اللي بيتباع\n**أبدًا** متستخدم رسمة توضيحية بدل صورة حقيقية للمنتج اللي المستخدم هيشتريه — المشتري محتاج يشوف بالظبط إيه اللي هيوصله. الرسوم مقبولة في أماكن تانية في نفس المنتج (صفحة ٤٠٤، التعريف) — بس مش في بطاقة المنتج نفسه."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** Arab culture, especially in Gulf countries, places great value on luxury. For a luxury Gulf brand, high-quality real photography will be much stronger than an illustration.",
+        "ar": "**[ملاحظة للسياق العربي]** الثقافة العربية — خصوصًا في دول الخليج — بتقدّر الفخامة جدًا. لو بتصمّم لبراند خليجي فاخر، الصور الحقيقية عالية الجودة هتكون أقوى بكتير من أي رسمة."
+      }
+    },
+    {
+      "id": "illustration-tips",
+      "title": {
+        "en": "Important tips",
+        "ar": "نصائح مهمة"
+      },
+      "body": {
+        "en": "### Size matters\nIllustrations are visually more complex than icons. Make them too small and they lose clarity. For a small space, choose a simpler illustration or an icon.\n\n### Consistency is brand identity\nOnce you use illustrations in a product, they become part of its brand identity, like typefaces and colors. Every illustration should share the same style. **Do not mix** illustration styles; use one pack.\n\n### 3D illustrations\nThese can create a strong WOW effect, especially when animated, but require more production effort and resources.",
+        "ar": "### الحجم مهم\nالرسوم أعقد بصريًا من الأيقونات — لو صغّرتها أوي هتفقد وضوحها. لو محتاج حجم صغير — اختار رسمة أبسط أو استخدم أيقونة بدلها.\n\n### الاتساق = هوية البراند\nلما تبدأ تستخدم رسوم توضيحية في منتجك، هي بتبقى جزء من هوية البراند — زي الخطوط والألوان. فكل الرسوم لازم تكون بنفس الأسلوب. **متخلطش** أساليب رسم مختلفة — استخدم حزمة واحدة.\n\n### الرسوم ثلاثية الأبعاد (3D Illustrations)\nممكن تحقّق تأثير \"إبهار\" قوي خصوصًا لو متحرّكة — بس بتحتاج مجهود وموارد إنتاج أكبر."
+      }
+    },
+    {
+      "id": "illustration-sources",
+      "title": {
+        "en": "Free and paid illustration sources",
+        "ar": "مصادر رسوم مجانية/مدفوعة"
+      },
+      "body": {
+        "en": "- **storyset.com** — the favorite: five styles, free, editable colors and animation options.\n- **icons8.com/ouch** — many styles available free as PNGs.\n- **streamlineicons.com** — illustrations as well as icons.\n- **storytale.io** — attractive illustrations, including 3D, by subscription.",
+        "ar": "- **storyset.com** — المفضّل، ٥ أساليب، مجاني، ألوان قابلة للتعديل، ممكن تتحرّك\n- **icons8.com/ouch** — أساليب كتير مجانية بصيغة PNG\n- **streamlineicons.com** — رسوم كمان مش بس أيقونات\n- **storytale.io** — رسوم جميلة بما فيها 3D، باشتراك"
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Use illustrations for abstract concepts that photos cannot express.\n- Use them on landing pages, onboarding, achievements, empty states and 404 pages.\n- Avoid them for luxury or serious brands and for depicting the actual product being sold.\n- Use an appropriate size and one consistent style.\n- 3D can impress but costs more.",
+        "ar": "- الرسوم للمفاهيم المجرّدة اللي الصور مش بتقدر تجسّدها\n- أماكن الاستخدام: صفحات هبوط، تعريف، إنجازات، حالات فارغة، ٤٠٤\n- مش للبراندات الفخمة/الجدية، ومش لعرض المنتج الحقيقي\n- حجم مناسب + أسلوب واحد ثابت\n- الـ 3D ممكن يبهر بس بيكلّف أكتر"
+      }
+    }
+  ]
+}

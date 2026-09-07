@@ -1,0 +1,91 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "photos",
+  "order": 10,
+  "title": {
+    "en": "Photos",
+    "ar": "الصور (Photos)"
+  },
+  "intro": {
+    "en": "Choose photography that fits the context, earns trust and supports the interface across sizes and crops.",
+    "ar": "اختار صور مناسبة للسياق، بتبني الثقة وبتخدم الواجهة على أحجام ونسب أبعاد مختلفة."
+  },
+  "sections": [
+    {
+      "id": "why-photos",
+      "title": {
+        "en": "Why photos matter in design",
+        "ar": "ليه الصور مهمة في التصميم؟"
+      },
+      "body": {
+        "en": "Photos are the most realistic part of any design. Everything else, including shapes, type and colors, is abstract. Photography connects a digital product to the real world and gives it tangible value.",
+        "ar": "الصور هي الجزء الأكثر \"واقعية\" في أي تصميم — كل حاجة تانية (أشكال، خطوط، ألوان) مجرّدة، بس الصور بتربط المنتج الرقمي بالعالم الحقيقي وبتدّيه قيمة ملموسة."
+      }
+    },
+    {
+      "id": "photo-types",
+      "title": {
+        "en": "Two types of photos",
+        "ar": "نوعين من الصور"
+      },
+      "body": {
+        "en": "1. **Photos selected by the design team**, such as a landing page's hero image. You control these.\n2. **User photos**, such as profile pictures or Instagram posts. You do not control these.",
+        "ar": "١. **صور بيختارها فريق التصميم** — زي صورة البطل (Hero Image) في صفحة الهبوط. إنت بتتحكم فيها.\n٢. **صور المستخدمين** — زي صور البروفايل أو منشورات إنستجرام. مش بتتحكم فيها."
+      }
+    },
+    {
+      "id": "choose-good-photos",
+      "title": {
+        "en": "How to choose good photos",
+        "ar": "إزاي تختار صور كويسة؟"
+      },
+      "body": {
+        "en": "### A bad photo is not necessarily low quality\nA bad photo is one that **does not fit the context**. A supermarket photo may be technically good, but it is a bad choice for a travel page about Bali.\n\n### Real people build trust\nPhotos of real people, rather than exaggerated stock models, help users feel an emotional connection and trust the brand more.\n\n### Avoid clichéd stock photography\nExaggerated emotions, whether extreme happiness or sadness, look fake. Natural images and moderate emotions improve trust.\n\n### Always use high resolution\nStart with high-resolution photos: you can reduce them later, but cannot enlarge a small image effectively. Give developers multiple sizes (S/M/L) for responsive design, and compress images before launch.",
+        "ar": "### الصورة \"الوحشة\" مش بالضرورة جودتها قليلة\nالصورة \"الوحشة\" هي اللي **مش مناسبة للسياق**. صورة سوبر ماركت حلوة تقنيًا — لكنها \"وحشة\" لو حطيتها في صفحة سفر عن بالي.\n\n### ناس حقيقيين = ثقة\nصور ناس حقيقيين (مش ستوك مبالغ فيه) بتخلّي المستخدم يحس بارتباط عاطفي ويثق أكتر في البراند.\n\n### تجنّب شكل \"الستوك\" المبتذل\nصور مبالغ فيها عاطفيًا (ناس فرحانين أوي أو زعلانين أوي) بتبان مزيّفة. الطبيعية والمشاعر المعتدلة بتحسّن الثقة.\n\n### دقة عالية (High Resolution) دايمًا\nابدأ بصور عالية الدقة — تقدر تصغّرها بعدين، بس مش هتقدر تكبّر صورة صغيرة. وفّر للمطوّرين أحجام متعددة (S/M/L) للتصميم المتجاوب، واضغط الصور قبل الإطلاق."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** For a product aimed at Arab audiences, try to find photos of people from the same culture, or at least images that do not obviously belong to a completely different cultural context. For an Egyptian audience, an Egyptian family eating together is more emotionally powerful than a Swedish family.",
+        "ar": "**[ملاحظة للسياق العربي]** لما تختار صور لمنتج موجّه لجمهور عربي، حاول تلاقي صور فيها ناس من نفس الثقافة أو على الأقل مش واضح إنها من سياق ثقافي مختلف تمامًا. صور عيلة مصرية بتاكل مع بعض أقوى عاطفيًا من صور عيلة سويدية لجمهور مصري."
+      }
+    },
+    {
+      "id": "photo-techniques",
+      "title": {
+        "en": "Important techniques",
+        "ar": "تقنيات مهمة"
+      },
+      "body": {
+        "en": "### Overlay\nWhen placing text over a photo, add a translucent black, white or colored layer to ensure readability. A colored overlay, such as the brand color, connects the photo to the visual identity.\n\n### Single focal point\nIf users have to search inside the photo to find its subject, the photo is unclear. Choose photos with one clear focal point.\n\n### Photo consistency\nWhen showing photos together, such as a product grid, keep their color and lighting consistent. Use a shared color overlay or choose photos with similar atmospheres. **Warning:** overlays alter true colors, so avoid them when accurate product representation matters, as in e-commerce.\n\n### Directional gaze\nResearch says viewers follow the gaze of the person in a photo. If that person looks toward the CTA or heading, users' eyes naturally go there. This makes the photo **functional**, as well as decorative.\n\n### Photos tell stories, rather than only showing products\nForks and knives on a white background provide information without emotion. A happy family cooking together tells a story of aspiration and positive feelings. **People buy emotionally rather than logically**, one of the basic principles of sales.\n\n### Test different aspect ratios\nA photo that looks good at 16:9 may crop poorly at 1:1. Test each photo at all intended ratios (1:1, 4:5, 16:9, 4:3) before approving it.\n\n### WOW factor\nStriking, unusual photos leave a strong impression, but this is highly subjective. Treat it as a bonus rather than a priority.\n\n### Licensing\nNot every image online is free for commercial use. Check the license before publishing, and make clear to the client that this is their responsibility.",
+        "ar": "### الطبقة الشفافة (Overlay)\nلما تحط نص فوق صورة، لازم تحط طبقة شفافة (سوداء، بيضاء، أو ملوّنة) عشان تضمن إن النص يتقرأ. الطبقة الملوّنة (بلون البراند مثلاً) بتربط الصورة بالهوية البصرية.\n\n### نقطة بؤرية واحدة (Single Focal Point)\nلو المستخدم محتاج \"يدوّر\" جوه الصورة عشان يلاقي الموضوع — يبقى الصورة مش واضحة. اختار صور فيها نقطة بؤرية واحدة واضحة.\n\n### اتساق الصور\nلما تعرض مجموعة صور مع بعض (زي شبكة منتجات)، لازم يكون فيه اتساق في اللون والإضاءة. ممكن تحقق ده بطبقة لونية موحّدة أو باختيار صور متشابهة الأجواء. **تحذير**: الطبقة اللونية بتغيّر الألوان الحقيقية — فمتستخدمهاش لو التمثيل الدقيق للمنتج مهم (زي المتاجر الإلكترونية).\n\n### اتجاه النظر (Directional Gaze)\nالأبحاث بتقول إن عين المشاهد بتتبع اتجاه نظر الشخص في الصورة. فلو حطيت صورة شخص بينظر ناحية الـ CTA أو العنوان — عين المستخدم هتروح هناك تلقائيًا. ده بيخلّي الصورة **وظيفية** مش بس ديكورية.\n\n### الصور بتحكي قصة — مش بس بتعرض منتج\nصورة شوك وسكاكين على خلفية بيضاء = معلومة من غير مشاعر. صورة عيلة سعيدة بتطبخ مع بعض = قصة وطموح ومشاعر إيجابية. **الناس بتشتري بالعاطفة مش بالمنطق** — وده من القواعد الأساسية في المبيعات.\n\n### اختبر بنسب أبعاد مختلفة\nالصورة اللي شكلها حلو بنسبة 16:9 ممكن تتقص بشكل وحش في 1:1. اختبر كل صورة بالنسب اللي هتتعرض بيها (1:1, 4:5, 16:9, 4:3) قبل ما تعتمدها.\n\n### عامل \"الإبهار\" (WOW Factor)\nصور مذهلة وغير عادية بتسيب انطباع قوي — بس ده شيء شخصي جدًا، فخلّيه بونص مش أولوية.\n\n### الترخيص (Licensing)\nمش كل صورة على الإنترنت حرة الاستخدام تجاريًا. اتأكد من الترخيص قبل النشر، ووضّح للعميل إن ده مسؤوليته."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** In RTL layouts, the heading and CTA are often on the right. Have the person in the image look right instead of left.",
+        "ar": "**[ملاحظة للسياق العربي]** في التصميمات RTL، العنوان والـ CTA غالبًا على اليمين. فخلّي الشخص في الصورة ينظر لليمين — مش الشمال."
+      }
+    },
+    {
+      "id": "free-photo-sources",
+      "title": {
+        "en": "Free photo sources",
+        "ar": "مصادر صور مجانية"
+      },
+      "body": {
+        "en": "- **Unsplash** — the first choice; free for personal and commercial use.\n- **Pexels** — an excellent alternative.\n- **Barnimages** and **Gratisography** — additional options.",
+        "ar": "- **Unsplash** — المفضّل الأول، مجاني للاستخدام الشخصي والتجاري\n- **Pexels** — بديل ممتاز\n- **Barnimages** و**Gratisography** — خيارات إضافية"
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Choose photos that suit the **context**, rather than only being technically attractive.\n- Real people and moderate emotions build trust.\n- Always use high resolution, and compress before launch.\n- Add an overlay when putting text over a photo.\n- Use one focal point, with gaze directed toward important content.\n- Photos tell emotional stories, which are stronger than simply displaying a product.\n- Test different aspect ratios.\n- Check the license.",
+        "ar": "- اختار صور مناسبة **للسياق** مش بس حلوة تقنيًا\n- ناس حقيقيين + مشاعر معتدلة = ثقة\n- دقة عالية دايمًا + اضغط قبل الإطلاق\n- Overlay لما تحط نص فوق صورة\n- نقطة بؤرية واحدة + اتجاه النظر ناحية المحتوى المهم\n- الصور بتحكي قصة عاطفية — ده أقوى من مجرد عرض المنتج\n- اختبر بنسب أبعاد مختلفة\n- اتأكد من الترخيص"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "white-space",
+  "order": 13,
+  "title": {
+    "en": "White Space",
+    "ar": "المساحة البيضاء (White Space)"
+  },
+  "intro": {
+    "en": "Use empty space to direct attention, improve readability and give important content room without removing what users need.",
+    "ar": "استخدم الفراغ لتوجيه الانتباه وتحسين القراءة وإعطاء المحتوى المهم مساحته، من غير حذف اللي المستخدم محتاجه."
+  },
+  "sections": [
+    {
+      "id": "why-white-space",
+      "title": {
+        "en": "Why empty space matters",
+        "ar": "ليه المساحة الفارغة مهمة؟"
+      },
+      "body": {
+        "en": "White space, also called negative space, is the space between elements. Many designers neglect it because it feels like the part they did not design, but getting it right is crucial.",
+        "ar": "المساحة البيضاء (أو السلبية — Negative Space) هي الفراغ بين العناصر. كتير من المصممين بيهملوها لأنهم حاسين إنها \"الجزء اللي مصمموهوش\" — بس ضبطها صح حاجة حاسمة."
+      }
+    },
+    {
+      "id": "golden-rule",
+      "title": {
+        "en": "The golden rule",
+        "ar": "القاعدة الذهبية"
+      },
+      "body": {
+        "en": "> **The fewer elements on the screen, the more attention users give to the elements that remain.**\n\nWhite space is not empty: it directs attention toward actual content and lets elements breathe, improving reading and understanding.\n\nAs the saying goes: \"White space is the supporting actor whose job is to make the star stand out without drawing attention to itself.\"",
+        "ar": "> **كل ما قلّت العناصر على الشاشة، كل ما المستخدم ركّز أكتر على العناصر الموجودة.**\n\nالمساحة البيضاء مش \"فاضية\" — هي بتوجّه انتباه المستخدم للمحتوى الفعلي وبتخلّي العناصر \"تتنفس\"، وده بيحسّن القراءة والفهم.\n\nأو زي ما اتقال: \"المساحة البيضاء هي الممثل المساعد اللي شغلته إن البطل يبان أكتر من غير ما هو نفسه يبان.\""
+      }
+    },
+    {
+      "id": "purposeful-space",
+      "title": {
+        "en": "Not all empty space is good",
+        "ar": "لكن مش أي فراغ كويس"
+      },
+      "body": {
+        "en": "More space is generally better, but not when it means removing important content or essential functionality. White space does not mean absolute minimalism. Photos and illustrations have real value and do not need to be removed simply to create more space.",
+        "ar": "\"فراغ أكتر = أحسن عمومًا\" — بس مش لو ده معناه إنك تشيل محتوى مهم أو وظائف أساسية. المساحة البيضاء مش معناها Minimalism مطلق — الصور والرسوم التوضيحية ليها قيمة حقيقية ومش لازم تتشال عشان تزوّد فراغ."
+      }
+    },
+    {
+      "id": "no-fixed-formula",
+      "title": {
+        "en": "There is no fixed numerical rule",
+        "ar": "مفيش قاعدة رقمية ثابتة"
+      },
+      "body": {
+        "en": "The book explicitly says there is no exact formula for the right amount of white space. A loose guideline suggests a 50/50 balance between content and space, but it is not precise.",
+        "ar": "الكتاب بيقول صراحةً: مفيش معادلة دقيقة للمساحة البيضاء \"الصح\". فيه قاعدة تقريبية غير صارمة بتقول ٥٠/٥٠ بين المحتوى والفراغ — بس دي مش دقيقة."
+      },
+      "callout": {
+        "type": "tip",
+        "en": "**The best way to develop judgment:** study well-designed real products and see how professionals solved this problem.",
+        "ar": "**أحسن طريقة تبني حسّك**: ادرس منتجات حقيقية مصمّمة كويس وشوف إزاي المحترفين حلّوا المشكلة دي."
+      }
+    },
+    {
+      "id": "white-space-tips",
+      "title": {
+        "en": "Practical tips",
+        "ar": "نصائح عملية"
+      },
+      "body": {
+        "en": "### Start with plenty of space and reduce it\nIt is much easier to begin with excess white space and tighten it gradually than to start crowded and try to add space. In the latter case, you often settle for acceptable instead of excellent.\n\n### Unboxing\nIn e-commerce, remove the product photo's background and let the product float on its own. This opens up visual space and creates a cleaner appearance.\n\n### Stay away from edges and corners\nIn 99% of cases, text and elements **should not touch** the screen edge: it is hard to read and looks unbalanced. **Exception:** the top navigation bar and footer can span the full screen width.",
+        "ar": "### ابدأ بفراغ كتير وقلّل\nأسهل بكتير تبدأ بمساحة بيضاء زيادة وتضيّقها تدريجيًا، من إنك تبدأ مزحوم وتحاول \"تضيف فراغ\" — غالبًا هتكتفي بـ\"مقبول\" بدل \"ممتاز\".\n\n### تقنية \"فك الصندوق\" (Unboxing)\nفي التجارة الإلكترونية — شيل خلفية صورة المنتج وخلّي المنتج يطفو لوحده. ده بيفتح مساحة بصرية وبيدّي شكل أنظف.\n\n### ابعد عن الحواف والأركان\nفي ٩٩٪ من الحالات، النص والعناصر **متلمسش** حافة الشاشة — صعب القراءة وشكله مش متوازن. **الاستثناء**: شريط التنقّل العلوي (Navbar) والفوتر — ممكن يمتدوا لعرض الشاشة الكامل."
+      }
+    },
+    {
+      "id": "when-clients-want-to-fill-space",
+      "title": {
+        "en": "When the client says: fill this space",
+        "ar": "لما العميل يقولك \"املا الفراغ ده\""
+      },
+      "body": {
+        "en": "This is a recurring conflict between designers and product owners. The owner feels the space is wasted or boring. The solution:\n\n1. **Social proof:** show a famous, successful product that uses substantial white space, such as Apple.\n2. **Explain simply:** \"Filling this space will distract users from the important content.\"\n3. **As a last resort:** if the client insists, fill the space with something **undistracting**, such as a calm colored background or abstract shapes.",
+        "ar": "ده صراع متكرر بين المصمم وصاحب المنتج. صاحب المنتج بيحس إن الفراغ \"ضايع\" أو \"ممل\". الحل:\n\n١. **إثبات اجتماعي**: ورّيه منتج مشهور وناجح بيستخدم مساحة بيضاء كبيرة (Apple مثلاً)\n٢. **اشرح ببساطة**: \"لو ملينا الفراغ ده هنشتّت انتباه المستخدم عن المحتوى المهم\"\n٣. **كحل أخير**: لو العميل مُصر — حاول تملا الفراغ بشكل **مش مشتّت** — زي خلفية لونية هادية أو أشكال مجرّدة"
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- White space is an active design decision, rather than a blank canvas.\n- Fewer elements mean more attention for each one.\n- Do not remove important content just to create space.\n- Start with plenty of space and reduce it gradually.\n- Unbox product photos.\n- Keep content away from edges, except the navbar and footer.\n- Prepare convincing arguments for clients who want to fill the space.",
+        "ar": "- المساحة البيضاء قرار تصميمي فعّال — مش كانفاس فاضي\n- عناصر أقل = تركيز أكتر على كل عنصر\n- متشيلش محتوى مهم عشان تزوّد فراغ\n- ابدأ بفراغ كتير وقلّل تدريجيًا\n- \"فك الصندوق\" لصور المنتجات\n- ابعد عن الحواف (إلا Navbar وFooter)\n- جهّز حجج مقنعة لما العميل يطلب \"يملا الفراغ\""
+      }
+    }
+  ]
+}
