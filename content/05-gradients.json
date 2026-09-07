@@ -1,0 +1,86 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "gradients",
+  "order": 5,
+  "title": {
+    "en": "Gradients",
+    "ar": "التدرجات اللونية (Gradients)"
+  },
+  "intro": {
+    "en": "Use gradients to add depth and a distinctive visual treatment, while keeping transitions smooth and attention focused.",
+    "ar": "استخدم التدرجات لإضافة عمق وشكل بصري مميز، مع انتقالات ناعمة وتركيز واضح."
+  },
+  "sections": [
+    {
+      "id": "what-is-a-gradient",
+      "title": {
+        "en": "What is a gradient?",
+        "ar": "إيه هو التدرج؟"
+      },
+      "body": {
+        "en": "A gradient is a gradual transition from one color to another.",
+        "ar": "التدرج = انتقال تدريجي من لون للون تاني."
+      }
+    },
+    {
+      "id": "why-gradients",
+      "title": {
+        "en": "Why use gradients?",
+        "ar": "ليه بنستخدم التدرجات؟"
+      },
+      "body": {
+        "en": "**1. Realism:**\nAlmost everything in real life appears as a gradient under light, rather than a single flat color. Gradients make interfaces feel more realistic and add depth, alongside shadows.\n\n**2. Creative differentiation:**\nBlending two colors gives you almost endless unique results. This matters when other brands already use the safe solid colors. Instagram's icon is an excellent example: its gradient stands out and is easy to remember because people remember a distinctive visual treatment, rather than exact color codes.",
+        "ar": "**١. الواقعية:**\nتقريبًا كل حاجة في الحياة الحقيقية تحت الضوء بتظهر كتدرج — مش لون واحد مسطح. استخدام التدرجات بيخلي الواجهة تحس إنها أكثر واقعية وعمق (مع الظلال).\n\n**٢. التميز الإبداعي:**\nمزج لونين بيديك نتائج فريدة لا نهائية تقريبًا، وده مهم لما الألوان الثابتة \"الآمنة\" مستخدمة بالفعل من براندات تانية. أيقونة إنستجرام مثال ممتاز — التدرج بتاعها بارز وسهل تتذكره، لأن الناس مش بتحفظ أكواد ألوان بالظبط لكن بتتذكر المعالجة البصرية المميزة."
+      }
+    },
+    {
+      "id": "gradient-types",
+      "title": {
+        "en": "Types of gradients",
+        "ar": "أنواع التدرجات"
+      },
+      "body": {
+        "en": "**Linear:** a simple, straight transition between two colors. The most common type.\n**Radial:** an elliptical transition, with one color at the center changing into another at the edge. Often used to imitate three-dimensional depth.\n**Angular / conic:** color stops arranged around a circle. Rare in UI design; it can feel original but distracting.\n**Mesh:** abstract blending of multiple colors. Difficult to make manually, so often downloaded from generators. Very rare in real products; use experimentally and cautiously.",
+        "ar": "**خطي (Linear):** انتقال بسيط ومستقيم بين لونين. الأكثر شيوعًا.\n**دائري (Radial):** بيضاوي — لون بيبدأ من المركز ويتحول للون تاني عند الحافة. بيتستخدم كتير لتقليد العمق الثلاثي الأبعاد.\n**زاوي/مخروطي (Angular/Conic):** نقاط اللون مترتبة حوالين دائرة. نادر في تصميم الواجهات — ممكن يبان أصلي لكن مشتت.\n**شبكي (Mesh):** مزج ألوان متعددة بشكل مجرد. صعب تعمله يدويًا (بيتحمّل من مولدات). نادر جدًا في المنتجات الحقيقية — استخدمه تجريبيًا وبحذر."
+      }
+    },
+    {
+      "id": "smooth-gradient-colors",
+      "title": {
+        "en": "Choosing colors for a smooth gradient",
+        "ar": "إزاي تختار ألوان لتدرج ناعم؟"
+      },
+      "body": {
+        "en": "Use colors close together on the color wheel to avoid a harsh transition and the **gray dead zone** that appears in the middle when the colors are too different.",
+        "ar": "استخدم ألوان قريبة من بعض على عجلة الألوان عشان تتجنب الانتقال الحاد و **\"المنطقة الميتة\" الرمادية** اللي بتظهر في نص التدرج لما الألوان متباينة أوي."
+      },
+      "callout": {
+        "type": "tip",
+        "en": "**Practical tip:** start with the same color at both ends, then change the hue at one end by 20–25 degrees. This produces a natural, smooth gradient.",
+        "ar": "**نصيحة عملية:** ابدأ بنفس اللون على الطرفين، وبعدين غيّر قيمة الصبغة (Hue) لطرف واحد بـ ٢٠–٢٥ درجة — بيعمل تدرج طبيعي وناعم."
+      }
+    },
+    {
+      "id": "cognitive-overload",
+      "title": {
+        "en": "Warning: cognitive overload",
+        "ar": "تحذير: الحمل الذهني (Cognitive Overload)"
+      },
+      "body": {
+        "en": "Using vibrant gradients everywhere creates the familiar problem: when everything demands attention, nothing gets attention. It is visual chaos, rather than sophistication.",
+        "ar": "استخدام تدرجات حيوية في كل مكان بيعمل نفس مشكلة \"لما كل حاجة بتحاول تلفت الانتباه، مفيش حاجة بتلفت الانتباه.\" فوضى بصرية مش برستيج."
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Use gradients to add realism and depth, and to create distinctive visuals.\n- Linear and radial gradients are most common; angular and mesh gradients are rare and experimental.\n- Build smooth gradients from neighboring colors, or the same color with a hue difference of about 20–25 degrees.\n- Avoid overusing vibrant gradients. Restraint preserves visual hierarchy.",
+        "ar": "- استخدم التدرجات لإضافة واقعية/عمق ولخلق صور بصرية مميزة.\n- الخطي والدائري هم الأكثر استخدامًا؛ الزاوي والشبكي نادرين وتجريبيين.\n- ابني تدرجات ناعمة بألوان قريبة على عجلة الألوان (أو نفس اللون بفرق صبغة ~٢٠–٢٥).\n- متكترش من التدرجات الحيوية — ضبط النفس بيحافظ على التسلسل البصري."
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "language",
+  "order": 15,
+  "title": {
+    "en": "Language and UI Copy",
+    "ar": "اللغة والنصوص في التصميم"
+  },
+  "intro": {
+    "en": "Good interface writing is part of design. Make every label, message and prompt clear enough to help the user decide what to do next.",
+    "ar": "يا صديقي المصمّم، خلّينا نتكلم عن حاجة ناس كتير بتستهون بيها: الكلام اللي بيتكتب جوه التصميم. إنت مش كاتب إعلانات (Copywriter)، وده مش عيب — ده تخصص مختلف تمامًا. لكن فيه جزء من الكتابة هو مسؤوليتك بالكامل كمصمّم، وده اللي هنتكلم عنه دلوقتي."
+  },
+  "sections": [
+    {
+      "id": "copywriting-boundary",
+      "title": {
+        "en": "You are not a copywriter — and that is fine",
+        "ar": "إنت مش كاتب إعلانات — وده عادي"
+      },
+      "body": {
+        "en": "Long-form persuasive copy is a specialist discipline. Recommend a professional copywriter for sales and marketing content; use realistic temporary copy while the final content is being prepared.",
+        "ar": "كتابة النصوص اللي بتبيع (Copywriting) مهارة منفصلة ومهنة قايمة بذاتها. الهدف الأساسي لأي بيزنس إنه يكسب فلوس، والكلام اللي بيقنع الناس تشتري ده أصعب بكتير مما تتخيل — عشان كده مهنة \"كاتب الإعلانات\" موجودة من الأساس.\r\n\r\n**ليه ده مهم ليك؟** لأنك لازم توصّي العميل بتاعك إنه يجيب Copywriter محترف للنصوص الطويلة والبيعية. إنت دورك تحط نصوص مؤقتة عامة في الأماكن اللي هييجي فيها المحتوى النهائي بعدين."
+      }
+    },
+    {
+      "id": "microcopy-is-design",
+      "title": {
+        "en": "Microcopy is part of the design",
+        "ar": "لكن النصوص الصغيرة (Microcopy) — دي شغلتك"
+      },
+      "body": {
+        "en": "Designers are responsible for the short text on buttons, dialogs, errors and tooltips. Users read these words immediately before acting, so vague writing creates hesitation and mistakes.",
+        "ar": "النصوص الصغيرة (Microcopy) هي الكلام القصير اللي بيظهر على الأزرار، النوافذ المنبثقة (Popups)، رسائل الخطأ، والتلميحات (Tooltips). الموضوع شكله بسيط، لكنه بيأثر بشكل كبير جدًا على تجربة المستخدم.\r\n\r\n**ليه؟** لأن المستخدم بيقرأ الكلمتين دول قبل ما ياخد قرار — يضغط ولا مايضغطش. لو الكلام مش واضح، المستخدم هيتردد أو هيغلط."
+      }
+    },
+    {
+      "id": "specific-button-labels",
+      "title": {
+        "en": "Make button labels specific but concise",
+        "ar": "نصوص الأزرار: كن محدد — لكن بلا إطالة"
+      },
+      "body": {
+        "en": "A button should describe the result of pressing it. Prefer “Next step” over “Next” and “Add to favorites” over “Favorite,” but avoid turning the label into a sentence-length explanation.",
+        "ar": "النص على الزرار لازم يقول بالظبط إيه اللي هيحصل لما المستخدم يضغط عليه. لكن من غير ما تبالغ في الطول.\r\n\r\n**أمثلة:**\r\n- \"التالي\" ← الأحسن: \"الخطوة التالية\"\r\n- \"المفضلة\" ← الأحسن: \"أضف للمفضلة\"\r\n- لكن \"اذهب إلى الخطوة التالية من العملية\" ← ده كتير أوي ومافيش داعي\r\n\r\n**القاعدة:** النقطة الحلوة هي جملة قصيرة محددة — مش كلمة واحدة غامضة، ومش جملة طويلة زي مقال."
+      }
+    },
+    {
+      "id": "avoid-double-negatives",
+      "title": {
+        "en": "Avoid double negatives in dialogs",
+        "ar": "النوافذ المنبثقة: بلاش نفي مزدوج"
+      },
+      "body": {
+        "en": "Do not pair an ambiguous question about cancellation with “Yes” and “Cancel.” Label actions by their actual outcomes, such as “Cancel subscription” and “Go back,” so users never have to decode what a button means.",
+        "ar": "دي من أكتر الغلطات الشائعة وأخطرها:\r\n\r\n**المشكلة:** تسأل المستخدم \"هل أنت متأكد إنك عايز تلغي اشتراكك؟\" وتحط زرارين \"نعم\" و\"إلغاء\". هنا المستخدم بيتلغبط — لأن \"إلغاء\" المفروض تقفل النافذة بس، مش تلغي الاشتراك! لكن المستخدم ممكن يفهمها غلط لأن السؤال نفسه عن \"الإلغاء\".\r\n\r\n**الحل:** سمّي الأزرار بالفعل اللي هيحصل:\r\n- \"إلغاء الاشتراك\" ← واضح إنه هيلغي فعلًا\r\n- \"رجوع\" أو \"إغلاق\" ← واضح إنه هيقفل النافذة بس\r\n\r\n**ليه ده مهم؟** لأن لما كل زرار بيقول بالظبط إيه اللي هيعمله، مافيش مجال للغموض. المستخدم بيكون واثق ١٠٠٪ من قراره."
+      }
+    },
+    {
+      "id": "name-the-target",
+      "title": {
+        "en": "Name the target when space allows",
+        "ar": "خصص أكتر لما المساحة تسمح"
+      },
+      "body": {
+        "en": "For high-risk actions, name the affected item. “Delete design-final.fig?” with “Yes, delete it” and “No, keep it” gives the user confidence and prevents expensive mistakes.",
+        "ar": "في الإجراءات الخطيرة (زي حذف ملف)، سمّي الحاجة اللي هتتمسح بالاسم في النافذة المنبثقة.\r\n\r\n**مثال:**\r\nبدل \"هل تريد الحذف؟\" + \"نعم\" / \"لا\"\r\nالأحسن: \"هل تريد حذف ملف التصميم-النهائي.fig؟\" + \"أيوه، امسحه\" / \"لا، خليه\"\r\n\r\n**ليه؟** لأن ده بيدي المستخدم يقين تام إنه بيمسح الحاجة الصح، وبيمنع أخطاء مكلفة."
+      }
+    },
+    {
+      "id": "write-like-a-human",
+      "title": {
+        "en": "Write like a human",
+        "ar": "اتكلم زي البني آدمين"
+      },
+      "body": {
+        "en": "Use simple, natural language appropriate to the brand. Error messages should explain what happened and suggest a useful next step, not merely expose technical status.",
+        "ar": "بلاش كلام معقد أو رسمي أوي. خلّي اللغة بسيطة عشان أكبر عدد من الناس يفهموا.\r\n\r\n**وفي رسائل الخطأ بالذات:** ماتقولش بس إيه المشكلة — اقترح حل.\r\n\r\n- ❌ \"لا يوجد اتصال لاسلكي.\"\r\n- ✅ \"مفيش إنترنت. جرّب تعيد تشغيل الراوتر.\"\r\n\r\n**ليه؟** لأن المستخدم مش خبير تقني — هو عايز يعرف يعمل إيه، مش بس يعرف إيه اللي حصل.\r\n\r\n**[ملاحظة للسياق العربي]** موضوع الاختصارات (Contractions) زي \"don't\" بدل \"do not\" ده خاص بالإنجليزية. في العربية المعادل هو إنك تستخدم لغة عامية مبسطة بدل الفصحى الثقيلة — \"مافيش نت\" بدل \"لا يتوفر اتصال بالشبكة\" — حسب شخصية البراند طبعًا. لو البراند رسمي (بنك مثلًا)، استخدم فصحى مبسطة. لو البراند شبابي (تطبيق توصيل مثلًا)، العامية أحسن."
+      }
+    },
+    {
+      "id": "no-lorem-ipsum",
+      "title": {
+        "en": "Never use Lorem Ipsum",
+        "ar": "بلاش Lorem Ipsum — أبدًا"
+      },
+      "body": {
+        "en": "Placeholder Latin makes a design feel generic and hides real layout problems. Use plausible content about the actual product, and use realistic Arabic text when designing an Arabic interface.",
+        "ar": "النص الوهمي اللاتيني (Lorem Ipsum) بيخلّي التصميم شكله غير واقعي وجينيريك.\r\n\r\n**البديل:** اكتب نص شبه واقعي عن المنتج الفعلي — حتى لو كان مش مثالي أو فيه شوية سخافة. المهم يكون له علاقة بالموضوع.\r\n\r\n**مثال:** لو بتصمّم مدونة وصفات أكل، بدل Lorem Ipsum، روح جوجل واكتب \"وصفة كنافة\" وخد نص من مقال حقيقي وحطه في التصميم كنص مؤقت. وطبعًا وضّح للعميل إن ده مش المحتوى النهائي — ده بس للعرض المرئي.\r\n\r\n**[ملاحظة للسياق العربي]** النقطة دي مهمة جدًا للتصميم بالعربي. Lorem Ipsum نص لاتيني، فلو حطيته في تصميم عربي هيبان أوي إنه مش حقيقي وهيشتت العميل. الأفضل دايمًا تكتب نص عربي واقعي حتى لو مبدئي."
+      }
+    },
+    {
+      "id": "language-key-points",
+      "title": {
+        "en": "Key points",
+        "ar": "النقاط المفتاحية"
+      },
+      "body": {
+        "en": "- Microcopy belongs to the designer; long persuasive copy belongs to a copywriter.\n- Describe outcomes in button labels.\n- Avoid yes/no confirmation traps.\n- Name the target of destructive actions.\n- Write simply and offer solutions in error messages.\n- Test layouts with realistic content, never Lorem Ipsum.",
+        "ar": "- النصوص الصغيرة (Microcopy) مسؤولية المصمّم؛ النصوص البيعية الطويلة مسؤولية الـ Copywriter\r\n- نص الزرار = جملة محددة قصيرة بتوصف النتيجة، مش فعل غامض ومش رواية\r\n- ماتستخدمش \"نعم/لا\" في نوافذ التأكيد — سمّي كل زرار بالإجراء الفعلي\r\n- في الإجراءات الخطيرة، سمّي العنصر المستهدف بالاسم\r\n- استخدم لغة بسيطة بشرية، واقترح حلول في رسائل الخطأ\r\n- ماتستخدمش Lorem Ipsum أبدًا — اكتب نص واقعي حتى لو مبدئي"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "next-steps",
+  "order": 18,
+  "title": {
+    "en": "What’s Next?",
+    "ar": "إيه اللي بعد كده؟"
+  },
+  "intro": {
+    "en": "UI design becomes less mysterious once you see it as the careful assembly of familiar elements. Skill grows through observation, repetition and honest critique.",
+    "ar": "وصلت لهنا — تمام. اتعلمت المبادئ والمكونات الأساسية. السؤال دلوقتي: إيه الخطوة الجاية؟"
+  },
+  "sections": [
+    {
+      "id": "interfaces-are-compositions",
+      "title": {
+        "en": "Interfaces are compositions of simple elements",
+        "ar": "تصميم الواجهات = تجميع عناصر بسيطة"
+      },
+      "body": {
+        "en": "Most screens are arrangements of type, color, spacing, imagery, controls and hierarchy. Break references into these parts, understand the choices, then recombine them deliberately.",
+        "ar": "الفكرة الأساسية إن تصميم الواجهات مش سحر — هو مستطيلات ودواير ونصوص، بتتجمّع مع بعض باستخدام مهارات التنسيق والتسلسل البصري (Visual Hierarchy). لو فهمت المكونات (أزرار، حقول إدخال، كروت، نافيجيشن) وفهمت مبادئ التسلسل — تقدر تصمّم أي حاجة. ده أحسن من إنك تتعلم \"إزاي تصمّم الشاشة دي بالذات\" — لأن كده بتتعلم شاشة واحدة بس."
+      }
+    },
+    {
+      "id": "develop-your-eye",
+      "title": {
+        "en": "Your design eye develops over time",
+        "ar": "\"العين التصميمية\" بتيجي مع الوقت"
+      },
+      "body": {
+        "en": "Visual judgment is learned through repeated exposure and comparison. Study strong products, ask why each decision works, recreate patterns and review your work at different sizes.",
+        "ar": "مع الممارسة، قرارات زي إنك تختار Bold ولا SemiBold، أو الفرق بين #1F1F1F و#121212، بتبقى حاسسها تلقائيًا بدل ما تفكر فيها. ده بييجي بس مع التكرار — مافيش طريق مختصر."
+      }
+    },
+    {
+      "id": "copying-as-practice",
+      "title": {
+        "en": "Copying is legitimate practice",
+        "ar": "ليه النقل (Copying) طريقة ممارسة مشروعة"
+      },
+      "body": {
+        "en": "Recreating excellent interfaces is like an art student copying a master: it trains observation and craft. Do it privately for learning, credit references, and never present copied work as an original client project.",
+        "ar": "نقل تصميمات ناس تانية ١:١ (بشكل خاص، مش بتنشرها أو تقول إنها بتاعتك — ده سرقة) بيعلّمك الخطوات الفعلية اللي محتاج تعملها عشان توصل لنتيجة بصرية معينة.\r\n\r\nتصميم الواجهات أسهل نسبيًا في النقل من مجالات زي الرسم التلاتي الأبعاد أو التوضيح لأنه مبني من أشكال هندسية بسيطة. القراءة النظرية لوحدها ليها حدود — لازم ممارسة فعلية.\r\n\r\n**نصيحة مهمة:** استخدم **mobbin.design** بدل Dribbble للممارسة بالنقل، لأن شاشات mobbin من تطبيقات حقيقية متنشرة ومختبرة — بينما تصميمات Dribbble كتير منها مفاهيمية ومش واقعية وما\"تشتغلش في الحياة الحقيقية\".\r\n\r\n**وطبعًا:** ماتنشرش الشغل المنقول على إنه بتاعك أبدًا — ده للممارسة الخاصة بس."
+      }
+    },
+    {
+      "id": "daily-ui",
+      "title": {
+        "en": "Try a Daily UI challenge",
+        "ar": "تحدي Daily UI"
+      },
+      "body": {
+        "en": "Short daily prompts create repetition and reduce the friction of choosing what to design. Treat them as focused exercises, not proof that every screen is a complete usable product.",
+        "ar": "موقع dailyui.co (مجاني) بيديك تحدي تصميم يومي لمدة ١٠٠ يوم متتالية. أكتر من ١٥٠,٠٠٠ شخص عملوه. الفكرة إنه بيخلّيك تمارس يوميًا وتنشر على السوشيال ميديا عشان المحاسبة والتحفيز."
+      }
+    },
+    {
+      "id": "when-to-freelance",
+      "title": {
+        "en": "When should you start freelancing?",
+        "ar": "إمتى تبدأ فري لانس؟"
+      },
+      "body": {
+        "en": "Start when you can solve a modest problem reliably, communicate your decisions and deliver clean files—not when you feel you have learned everything. Begin with narrow, low-risk work and expand as your process matures.",
+        "ar": "مارس على مشاريع وهمية/مفاهيمية الأول. وكقاعدة عامة: **أول ما حد يعرضلك شغل فري لانس بشكل طبيعي عن طريق إنستجرام أو Dribbble — اقبل**. ده إشارة حقيقية إن مستواك وصل لمرحلة السوق بيطلبك فيها. ماتفكرش فيها كتير."
+      }
+    },
+    {
+      "id": "freelance-or-agency",
+      "title": {
+        "en": "Freelance or company?",
+        "ar": "فري لانس ولا شركة/وكالة؟"
+      },
+      "body": {
+        "en": "Freelancing offers autonomy and direct client experience but requires sales, scoping and administration. A company or agency offers mentorship, team practice and larger systems. Choose the environment that best develops the skills you currently lack.",
+        "ar": "الاتنين فيهم مميزات وعيوب. لكن الشغل في شركة أو وكالة في البداية بيديك تعلم أكتر لأنك بتشتغل ضمن فريق — وده مهم جدًا للمبتدئين."
+      }
+    },
+    {
+      "id": "next-steps-key-points",
+      "title": {
+        "en": "Key points",
+        "ar": "النقاط المفتاحية"
+      },
+      "body": {
+        "en": "- Decompose interfaces into familiar building blocks.\n- Train judgment through study and repetition.\n- Recreate work ethically as practice.\n- Use prompts to build consistency.\n- Start with manageable projects and choose a work environment that supports your growth.",
+        "ar": "- اتعلم مكونات ومبادئ قابلة للنقل، مش دروس عن شاشة بعينها\r\n- مارس بنقل تصميمات تطبيقات حقيقية (mobbin.design) مش مفاهيم Dribbble\r\n- ماتنشرش شغل منقول على إنه بتاعك أبدًا\r\n- اقبل أول عرض فري لانس طبيعي — ده تأكيد من السوق\r\n- المبتدئين ممكن يستفيدوا أكتر من بيئة فريق قبل ما يشتغلوا لوحدهم"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "icons",
+  "order": 9,
+  "title": {
+    "en": "Icons",
+    "ar": "الأيقونات (Icons)"
+  },
+  "intro": {
+    "en": "Make icons easy to recognize and scan, with consistent styles, geometry, labels and touch areas.",
+    "ar": "خلّي الأيقونات سهلة الفهم والمسح البصري، بأسلوب وأشكال وتسميات ومساحات لمس متسقة."
+  },
+  "sections": [
+    {
+      "id": "why-icons",
+      "title": {
+        "en": "Why icons matter",
+        "ar": "ليه الأيقونات مهمة؟"
+      },
+      "body": {
+        "en": "Most users **scan** content rather than reading every word. Icons help them understand faster without reading; they are visual shorthand for text.\n\nIcons existed in the physical world before digital design, on cameras, microwaves and traffic signs. Their purpose was never beauty; it was **quick understanding**.",
+        "ar": "أغلب المستخدمين **بيمسحوا** المحتوى بعينهم بدل ما يقرأوا كل كلمة. الأيقونات بتخلّيهم يفهموا أسرع من غير ما يقرأوا — هي اختصار بصري للنص.\n\nالأيقونات كانت موجودة في العالم الحقيقي قبل التصميم الرقمي — على الكاميرات، الميكروويف، إشارات المرور. هدفها مكانش يوم الجمال — هدفها إنها **تتفهم بسرعة**."
+      }
+    },
+    {
+      "id": "icon-types",
+      "title": {
+        "en": "Two types of icons",
+        "ar": "نوعين من الأيقونات"
+      },
+      "body": {
+        "en": "### Clarifying icons\nExplain or categorize something but **are not clickable**, such as category icons for cameras, televisions and headphones in an online store.\n\n### Interactive icons\nAct as buttons, such as a heart for saving a product or icons in a navigation bar. Users must feel confident about what will happen when they press them, so these icons must be **very simple and familiar**. They also need a touch area of at least **44×44 points**, even if the icon itself is smaller.",
+        "ar": "### أيقونات توضيحية (Clarifying Icons)\nبتشرح أو بتصنّف حاجة بس **مش بتتضغط** — زي أيقونات الأقسام في متجر إلكتروني (كاميرات، تليفزيونات، سماعات).\n\n### أيقونات تفاعلية (Interactive Icons)\nبتشتغل كأزرار — زي أيقونة القلب عشان تحفظ منتج، أو أيقونات شريط التنقّل (Navbar). لأن المستخدم لازم يثق إنه عارف إيه هيحصل لما يدوس، الأيقونات دي لازم تكون **بسيطة جدًا ومعروفة**. ولازم يكون ليها مساحة لمس لا تقل عن **٤٤×٤٤ نقطة** حتى لو الأيقونة نفسها أصغر."
+      }
+    },
+    {
+      "id": "icon-styles",
+      "title": {
+        "en": "Icon styles",
+        "ar": "أساليب الأيقونات"
+      },
+      "body": {
+        "en": "- **Line** and **filled:** the safest and most common styles, and easy to understand.\n- **Duo-tone**, **broken** and **glassy:** more decorative and less clear; use cautiously.",
+        "ar": "- **خطي (Line)** و**مصمت (Filled)**: الأكثر أمانًا وانتشارًا — سهل فهمها\n- **ثنائي اللون (Duo-tone)**، **مكسور (Broken)**، **زجاجي (Glassy)**: أكتر ديكورية وأقل وضوحًا — استخدمها بحذر"
+      },
+      "callout": {
+        "type": "warning",
+        "en": "**Rule:** do not mix different styles within one product. **The only exception:** a navigation bar can use a filled icon for the active screen and line icons for the others.",
+        "ar": "**القاعدة**: متخلطش أساليب مختلفة في نفس المنتج. **الاستثناء الوحيد**: شريط التنقّل — الشاشة النشطة بأيقونة مصمتة (Filled)، والباقي خطي (Line)."
+      }
+    },
+    {
+      "id": "one-icon-pack",
+      "title": {
+        "en": "Use a complete icon pack",
+        "ar": "استخدم حزمة أيقونات كاملة"
+      },
+      "body": {
+        "en": "Do not take one icon from one source and another elsewhere. Their stroke widths, curvature and styles will differ. Use **one icon pack** to ensure consistency.",
+        "ar": "متجيبش أيقونة من مصدر وأيقونة تانية من مصدر تاني — هيبقى فيه فرق في سُمك الخطوط ودرجة الانحناء والأسلوب. استخدم **حزمة واحدة** (Icon Pack) عشان تضمن الاتساق."
+      }
+    },
+    {
+      "id": "icon-design-tips",
+      "title": {
+        "en": "Important tips",
+        "ar": "نصائح مهمة"
+      },
+      "body": {
+        "en": "### Simplicity first\nA simple icon is recognized faster, reads at small sizes and serves its purpose as a substitute for text. If an icon needs an explanation, it has failed.\n\n### Test at the actual size\nAn icon that looks good large may be unreadable at 16 points. Always test at the smallest size you will use.\n\n### Consistent stroke width\nEvery icon in the product should have the same stroke width. If you bring in an icon from another pack, adjust its stroke to match.\n\n### Consistent curvature\nSharp corners look serious or formal. Rounded icons look friendly or general-purpose. **Do not mix** them.\n\n### Match the typeface\nMatching icon stroke width to the font weight beside it can create a cohesive appearance. Do not sacrifice consistency to achieve it.\n\n### Label unfamiliar icons\nHome, Search and Profile are familiar and do not need text. An unfamiliar or new icon **must** have a text label beside it.\n\n### Bounding box\nEvery icon should sit inside a box of the same size, such as 24×24 points, even when the shapes differ. This preserves layout and alignment.",
+        "ar": "### البساطة أولًا\nالأيقونة البسيطة بتتعرف أسرع، بتتقرأ بأحجام صغيرة، وبتخدم هدفها كبديل للنص. لو الأيقونة محتاجة شرح — يبقى فشلت.\n\n### اختبر بالحجم الفعلي\nأيقونة شكلها حلو بحجم كبير ممكن تبقى مش مقروءة بحجم ١٦ نقطة. دايمًا اختبر بأصغر حجم هتستخدمه.\n\n### سُمك الخط ثابت\nكل أيقونات المنتج لازم يكون ليها نفس سُمك الخط. لو جبت أيقونة من حزمة تانية، عدّل سُمكها عشان يطابق الباقي.\n\n### انحناء ثابت\nأيقونات حادة الزوايا = شكل جدي/رسمي. أيقونات مستديرة = شكل ودود/عام. **متخلطش** الاتنين.\n\n### توافق مع الخط\nلو تقدر توفّق بين سُمك خط الأيقونة ووزن الخط (Font Weight) المستخدم جنبها — ده بيدّي شكل متناسق جدًا. بس متضحّيش بالاتساق عشان تحقق ده.\n\n### أضف نص للأيقونات الغير معروفة\nأيقونات زي Home وSearch وProfile معروفة ومش محتاجة نص. بس أيقونة غريبة أو جديدة — **لازم** يكون جنبها تسمية نصية.\n\n### صندوق الحدود (Bounding Box)\nكل الأيقونات لازم تكون جوه صندوق موحّد الحجم (مثلاً ٢٤×٢٤ نقطة) حتى لو شكل الأيقونة مختلف — ده بيحافظ على التنسيق والمحاذاة."
+      }
+    },
+    {
+      "id": "suggested-icon-packs",
+      "title": {
+        "en": "Suggested icon packs",
+        "ar": "حزم أيقونات مقترحة"
+      },
+      "body": {
+        "en": "- **Anron Icons** (about 1,700 icons, three styles) — anron.pro\n- **Iconly 2** — modern and elegant — ui8.net\n- **Streamline Icons** (30,000+ icons) — streamlineicons.com\n- **Feather Icons** — free and simple — feathericons.com",
+        "ar": "- **Anron Icons** (~١٧٠٠ أيقونة، ٣ أساليب) — anron.pro\n- **Iconly 2** — حديث وأنيق — ui8.net\n- **Streamline Icons** (٣٠,٠٠٠+ أيقونة) — streamlineicons.com\n- **Feather Icons** — مجاني وبسيط — feathericons.com"
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Icons are visual shorthand that reduces reading.\n- Distinguish clarifying icons from interactive ones.\n- Stick to one style and one pack.\n- Use simple shapes, consistent stroke widths and consistent curvature.\n- Give all icons a uniform bounding box.\n- Add text to unfamiliar icons.",
+        "ar": "- الأيقونات = اختصار بصري عشان المستخدم يقرأ أقل\n- فرّق بين أيقونات توضيحية وتفاعلية\n- التزم بأسلوب واحد وحزمة واحدة\n- البساطة + سُمك خط ثابت + انحناء ثابت\n- صندوق حدود موحّد لكل الأيقونات\n- نص مع الأيقونات الغير معروفة"
+      }
+    }
+  ]
+}

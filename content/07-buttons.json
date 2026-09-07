@@ -1,0 +1,167 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "buttons",
+  "order": 7,
+  "title": {
+    "en": "Buttons",
+    "ar": "الأزرار (Buttons)"
+  },
+  "intro": {
+    "en": "Choose button treatments by action priority, design every state, and make touch targets and consequential actions clear.",
+    "ar": "اختار شكل الأزرار حسب أهمية الإجراء، وصمم كل الحالات، ووضّح مساحات اللمس وعواقب الإجراءات المهمة."
+  },
+  "sections": [
+    {
+      "id": "what-is-a-button",
+      "title": {
+        "en": "What is a button?",
+        "ar": "إيه هو الزرار؟"
+      },
+      "body": {
+        "en": "An interactive element that triggers a specific action when pressed.\n\nButtons are classified in two ways: by **appearance**, or visual treatment, and by **action**, or the importance of the task. More important actions should stand out visually so users can find them easily. This is another form of visual hierarchy.",
+        "ar": "عنصر تفاعلي بيفعّل إجراء محدد لما تضغط عليه.\n\nالأزرار بتتصنف بطريقتين: حسب **الشكل** (المظهر البصري) وحسب **الإجراء** (أهمية الفعل). الإجراءات الأهم لازم شكلها يبرز أكتر عشان المستخدم يلاقيها بسهولة — وده تسلسل بصري تاني."
+      }
+    },
+    {
+      "id": "buttons-by-action",
+      "title": {
+        "en": "Classifying buttons by action",
+        "ar": "تصنيف الأزرار حسب الإجراء"
+      },
+      "body": {
+        "en": "**1. Call-to-action button — CTA:**\nThe main action the product wants users to take, such as \"Create an account\" or \"Buy now.\" Very common on landing pages. It must stand out visually through the primary color and an optional shadow, and is usually the largest button on the page. Height: 40–60 points; below 40 is difficult to press on mobile.\n\n**2. Primary button:**\nLooks similar to a CTA, but the **action** differs: it helps users progress through the product, such as \"Next,\" \"Save\" or \"Download,\" rather than making an explicitly persuasive request.\n\n**3. Secondary button:**\nAn alternative to the primary action, such as \"Back,\" \"Cancel\" or \"Edit profile.\" It is available but is not the encouraged path. Usually placed next to the primary button in forms.\nNote: a \"Back\" button should not appear at the first step of a form, because there is nowhere to go back to.\n\n**4. Tertiary button:**\nInfrequent, contextual actions such as \"Share\" or \"Save to favorites.\" Designed smaller and less prominently because they are less important.",
+        "ar": "**١. زرار دعوة لاتخاذ إجراء — CTA (Call-To-Action):**\nالإجراء الأساسي اللي المنتج عايز المستخدم ياخده (مثلاً: \"سجّل حساب\"، \"اشتري دلوقتي\"). شائع جدًا في صفحات الهبوط. لازم يبرز بصريًا (لون أساسي، ظل اختياري)، وعادةً أكبر زرار في الصفحة. الارتفاع بين ٤٠–٦٠ نقطة (أقل من ٤٠ صعب يتضغط على الموبايل).\n\n**٢. الزرار الأساسي (Primary):**\nشبه الـ CTA في الشكل، لكن **الإجراء** مختلف — بيساعد المستخدم يتقدم في المنتج (مثلاً: \"التالي\"، \"حفظ\"، \"تحميل\") مش طلب إقناعي صريح.\n\n**٣. الزرار الثانوي (Secondary):**\nبديل للإجراء الأساسي (مثلاً: \"رجوع\"، \"إلغاء\"، \"تعديل الملف\"). مش المسار المشجّع لكنه متاح. بيتحط عادةً جنب الزرار الأساسي في النماذج.\nملاحظة: زرار \"رجوع\" مش المفروض يظهر في أول خطوة من النموذج — مفيش مكان ترجعله.\n\n**٤. الزرار الثالثي (Tertiary):**\nإجراءات موقفية قليلة الاستخدام (مثلاً: \"مشاركة\"، \"حفظ في المفضلة\"). بتتصمم أصغر وأقل بروزًا لأنها أقل أهمية."
+      }
+    },
+    {
+      "id": "buttons-by-appearance",
+      "title": {
+        "en": "Classifying buttons by appearance",
+        "ar": "تصنيف الأزرار حسب الشكل"
+      },
+      "body": {
+        "en": "**Filled:** a solid color or gradient. Best for high-priority buttons such as CTAs and primary actions.\n**Line / outline:** a border without a fill. Suitable for secondary and tertiary actions.\n**Transparent:** a light tint of the text color as the background. Suitable for lower-priority actions.\n**Text link:** ordinary text styled with color and weight to suggest clickability, usually within ordinary text.\n**Icon buttons:** improve scannability. Icon-only buttons must be reserved for universally familiar actions. If unsure, ask yourself: \"Have I seen this icon elsewhere?\"",
+        "ar": "**مملوء (Filled):** لون صلب أو تدرج. الأفضل للأزرار عالية الأهمية (CTA، أساسي).\n**محدد بخط (Line/Outline):** حدود بس، من غير تعبئة. مناسب للثانوي والثالثي.\n**شفاف (Transparent):** درجة فاتحة من لون النص كخلفية. مناسب للإجراءات الأقل أولوية.\n**رابط نصي (Text Link):** نص عادي متصمم (لون + وزن) يوحي بإمكانية الضغط، عادةً داخل نص عادي.\n**أزرار أيقونات (Icon Buttons):** بتحسن \"القابلية للمسح السريع\" (Scannability). أزرار الأيقونة لوحدها (من غير نص) لازم تكون بس لإجراءات معروفة عالميًا — لو مش متأكد، اسأل نفسك: \"شفت الأيقونة دي في مكان تاني؟\""
+      },
+      "callout": {
+        "type": "tip",
+        "en": "**General rule:** the more important the action, the more prominent its treatment should be. Filled is more prominent than transparent or outlined for CTAs and primary actions.",
+        "ar": "**القاعدة العامة:** كل ما الإجراء أهم، كل ما الشكل لازم يكون أبرز (مملوء > شفاف/محدد للـ CTA/الأساسي)."
+      }
+    },
+    {
+      "id": "corner-radius",
+      "title": {
+        "en": "Corner radius",
+        "ar": "نصف قطر الزوايا (Corner Radius)"
+      },
+      "body": {
+        "en": "**Communicates a feeling:**\n- Zero or low: elegant, professional and sharp.\n- High: friendly, approachable and easy on the eyes.\n\nWhatever you choose, **apply it consistently** to all buttons in the design system.",
+        "ar": "**بيوصّل إحساس:**\n- صفر/منخفض = أنيق، احترافي، حاد.\n- عالي = ودّي، مقرّب، مريح للعين.\n\nمهما اخترت، **طبّقه بتناسق** على كل الأزرار في نظام التصميم."
+      }
+    },
+    {
+      "id": "tap-and-click-area",
+      "title": {
+        "en": "Tap and click area",
+        "ar": "مساحة اللمس/الضغط (Tap/Click Area)"
+      },
+      "body": {
+        "en": "Small interactive elements such as text links and icon buttons need an **invisible clickable area larger than their visible bounds**. The minimum is 44×44 points on mobile, to reduce accidental taps.",
+        "ar": "العناصر التفاعلية الصغيرة (روابط نصية، أزرار أيقونات) لازم يكون ليها **مساحة ضغط غير مرئية أكبر من حدودها المرئية** — الحد الأدنى ٤٤×٤٤ نقطة على الموبايل — عشان تقلل الضغطات الغلط."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** This is particularly important when your audience uses phones with small screens, which are common in Arab markets.",
+        "ar": "**[ملاحظة للسياق العربي]** ده مهم بشكل خاص لو جمهورك بيستخدم موبايلات بشاشات صغيرة (شائعة في الأسواق العربية)."
+      }
+    },
+    {
+      "id": "button-shadows",
+      "title": {
+        "en": "Button shadows",
+        "ar": "ظلال الأزرار"
+      },
+      "body": {
+        "en": "A subtle shadow helps a button stand out, but works best on filled buttons. It is unsuitable for outlined or transparent buttons, where it suggests a solidity or weight that is not visually present.",
+        "ar": "ظل خفيف بيساعد الزرار يبرز، لكن بيشتغل أحسن على الأزرار المملوءة — مش مناسب للمحددة/الشفافة (الظل بيوحي بصلابة/ثقل مش موجود بصريًا)."
+      }
+    },
+    {
+      "id": "button-states",
+      "title": {
+        "en": "Button states",
+        "ar": "حالات الزرار (Button States)"
+      },
+      "body": {
+        "en": "Design **every** interaction state:\n- **Default:** the normal appearance.\n- **Hover:** when the mouse is over it.\n- **Clicked / active:** while being pressed.\n- **Disabled:** when the button is unavailable.\n\nThis confirms to users that their interaction registered. It is essential to how the product feels, even though it is often forgotten.",
+        "ar": "لازم تصمم **كل** حالات التفاعل:\n- **الافتراضي (Default):** الشكل الطبيعي.\n- **التمرير (Hover):** لما الماوس يكون فوقه.\n- **الضغط (Clicked/Active):** أثناء الضغط.\n- **المعطّل (Disabled):** لما الزرار مش متاح.\n\nده بيدي المستخدم تأكيد إن تفاعله اتسجّل — أساسي لإحساس المنتج حتى لو كتير بيتنسى."
+      }
+    },
+    {
+      "id": "width-and-padding",
+      "title": {
+        "en": "Button width and horizontal padding",
+        "ar": "عرض الزرار والحشو الأفقي (Width & Padding)"
+      },
+      "body": {
+        "en": "- Height: 40–60 points.\n- Width depends on text length; suggested horizontal padding is about 32 points on the web.\n- **On mobile:** buttons usually take the full width minus margins, in about 99% of cases.\n- Grid or form alignment can override the 32-point rule. If aligning a button with the input above it requires a wider button, alignment takes priority.",
+        "ar": "- الارتفاع: ٤٠–٦٠ نقطة.\n- العرض بيعتمد على طول النص؛ الحشو الأفقي المقترح ~٣٢ نقطة للويب.\n- **على الموبايل:** الأزرار في الغالب (~99% من الحالات) بتاخد العرض الكامل ناقص الهوامش.\n- محاذاة الشبكة/النموذج ممكن تتغلب على قاعدة الـ ٣٢ نقطة — لو محاذاة الزرار مع حقل إدخال فوقه بتتطلب عرض أكبر، الأولوية للمحاذاة."
+      }
+    },
+    {
+      "id": "button-text-size",
+      "title": {
+        "en": "Button text size",
+        "ar": "حجم نص الزرار"
+      },
+      "body": {
+        "en": "About 16 points is suggested, or match your type scale's base text size. Below about 13 points is hard to read; above about 20 points is unnecessarily large.",
+        "ar": "~١٦ نقطة مقترح (أو حسب حجم النص الأساسي في مقياسك). أقل من ~١٣ نقطة صعب في القراءة، أكتر من ~٢٠ نقطة كبير بلا داعي."
+      }
+    },
+    {
+      "id": "very-important-buttons",
+      "title": {
+        "en": "Very Important Buttons (VIBs)",
+        "ar": "الأزرار المهمة جدًا — VIBs (Very Important Buttons)"
+      },
+      "body": {
+        "en": "The author's term for the most important button in a flow: an action that takes something from the user, such as money or a commitment. For example, the final checkout button in a payment flow.\n\n**Rule:** if an action takes something from the user, its label must clearly explain the consequences. Use \"Complete purchase\" or \"Pay 150 pounds\" instead of the ambiguous \"Next,\" which leaves users unaware that they are about to be charged.",
+        "ar": "مصطلح المؤلف لأهم زرار في أي تدفق — الإجراء اللي بياخد حاجة من المستخدم (فلوس، التزام). مثال: زرار \"إتمام الشراء\" النهائي في عملية الدفع.\n\n**القاعدة:** لو الإجراء \"بياخد\" حاجة من المستخدم، لازم النص يوضح العواقب بوضوح. \"إتمام الشراء\" أو \"ادفع ١٥٠ جنيه\" بدل \"التالي\" المبهم — لأن المستخدم مش هيعرف إنه على وشك يتحاسب."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** Clear payment buttons are especially important in Arab markets because of sensitivity around electronic financial transactions and their relative unfamiliarity to a large group of users.",
+        "ar": "**[ملاحظة للسياق العربي]** في السوق العربي، الوضوح في أزرار الدفع مهم جدًا بسبب حساسية المعاملات المالية الإلكترونية وحداثتها النسبية عند شريحة كبيرة من المستخدمين."
+      }
+    },
+    {
+      "id": "button-pair-positioning",
+      "title": {
+        "en": "Positioning button pairs",
+        "ar": "ترتيب أزرار الزوج (Button Pair Positioning)"
+      },
+      "body": {
+        "en": "In a button pair such as \"Back\" and \"Next,\" the more important button goes on the **right**, and the less important one on the **left**.",
+        "ar": "في زوج أزرار (مثلاً \"رجوع\"/\"التالي\")، الزرار الأهم بيكون على **اليمين** والأقل أهمية على **اليسار**."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** The book explains this by saying about 90% of people are right-handed and the right side is easier to reach with the thumb. In Arabic RTL interfaces, this also aligns with the natural reading direction: a primary button on the right makes sense because the Arabic reader starts there. However, some major systems, such as Google's Arabic interfaces, mirror the entire order for RTL. Consistency within your product matters most. Choose one system and stick with it.",
+        "ar": "**[ملاحظة للسياق العربي]** الكتاب بيبرر ده بأن ~90% من الناس يمينية اليد والجهة اليمنى أسهل في الوصول بالإبهام. في الواجهات العربية (RTL)، ده بيتوافق مع اتجاه القراءة الطبيعي — الزرار الأساسي على اليمين منطقي لأن العين العربية بتبدأ من اليمين. لكن في بعض الأنظمة الكبيرة (زي أنظمة Google بالعربي)، الترتيب بينعكس كليًا مع الـ RTL. الأهم إنك تكون متسق في منتجك — اختار نظام والتزم بيه."
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Classify buttons by action: CTA, primary, secondary or tertiary. Design each to match its importance.\n- Filled for CTAs and primary actions; outlined or transparent for secondary and tertiary actions.\n- Button height: 40–60 points.\n- Keep corner radius consistent across the product.\n- Small elements need a touch area of at least 44×44 points.\n- Design every button state: default, hover, active and disabled.\n- Button text should be about 16 points.\n- On the web, button width equals text plus about 32 points of padding, subject to alignment. On mobile, use full width minus margins.\n- Make VIB labels clear, especially when the action costs users something.\n- In button pairs, put the more important button on the right.\n\n---\n\n*This educational content was prepared as an original Arabic reference for Arab designers, based on global principles while accounting for the Arabic language and cultural context.*",
+        "ar": "- صنّف الأزرار حسب الإجراء (CTA/أساسي/ثانوي/ثالثي) وصمم كل واحد بشكل يناسب أهميته.\n- مملوء للـ CTA/الأساسي؛ محدد/شفاف للثانوي/الثالثي.\n- ارتفاع الزرار: ٤٠–٦٠ نقطة.\n- نصف قطر الزوايا متسق في كل المنتج.\n- مساحة لمس ≥ ٤٤×٤٤ نقطة للعناصر الصغيرة.\n- صمم كل حالات الزرار: افتراضي، تمرير، ضغط، معطّل.\n- نص الزرار ~١٦ نقطة.\n- عرض الزرار على الويب = نص + ~٣٢ نقطة حشو (مع مراعاة المحاذاة). على الموبايل = عرض كامل ناقص الهوامش.\n- وضّح نص الزرار المهم (VIB) — خصوصًا لما الإجراء بيكلف المستخدم حاجة.\n- في أزواج الأزرار، الأهم على اليمين.\n\n---\n\n*تم إعداد هذا المحتوى التعليمي كمرجع عربي أصيل للمصممين العرب — مبني على المبادئ العالمية مع مراعاة خصوصيات اللغة العربية والسياق الثقافي العربي.*"
+      }
+    }
+  ]
+}

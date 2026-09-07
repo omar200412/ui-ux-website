@@ -1,0 +1,130 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "colors",
+  "order": 4,
+  "title": {
+    "en": "Colors",
+    "ar": "الألوان (Color)"
+  },
+  "intro": {
+    "en": "How color communicates emotion, how to build a complete palette, and why contrast needs checking.",
+    "ar": "إزاي اللون بيوصّل مشاعر، وإزاي تبني لوحة ألوان كاملة، وليه لازم تفحص التباين."
+  },
+  "sections": [
+    {
+      "id": "power-of-color",
+      "title": {
+        "en": "The power of color",
+        "ar": "قوة اللون"
+      },
+      "body": {
+        "en": "Color is one of the strongest tools for evoking emotion, and user experience is built on emotions. Major brands such as Facebook, Spotify and Netflix are recognizable from color alone. That is intentional and based on data and research.",
+        "ar": "اللون من أقوى الأدوات لإثارة المشاعر — وتجربة المستخدم مبنية على المشاعر. العلامات التجارية الكبيرة (فيسبوك، سبوتيفاي، نتفليكس) بتتعرف من لونها بس — وده مش عشوائي، ده مبني على بيانات وأبحاث."
+      }
+    },
+    {
+      "id": "color-terminology",
+      "title": {
+        "en": "Core terminology",
+        "ar": "المصطلحات الأساسية"
+      },
+      "body": {
+        "en": "- **Hue:** the color itself, such as red versus blue.\n- **Saturation:** from pure color (100%) to gray (0%).\n- **Lightness:** from black to white, independent of hue and saturation.\n- **Shade:** a hue plus black, made by reducing lightness.\n- **Tint:** a hue plus white, made by increasing lightness.",
+        "ar": "- **الصبغة (Hue):** اللون نفسه (أحمر مقابل أزرق).\n- **التشبع (Saturation):** من اللون النقي (100%) للرمادي (0%).\n- **الإضاءة (Lightness):** من الأسود للأبيض، مستقلة عن الصبغة والتشبع.\n- **الظل (Shade):** صبغة + أسود (بتقليل الإضاءة).\n- **الصبغة الفاتحة (Tint):** صبغة + أبيض (بزيادة الإضاءة)."
+      }
+    },
+    {
+      "id": "black-and-white",
+      "title": {
+        "en": "Black and white are the most important colors",
+        "ar": "الأسود والأبيض هم الألوان الأهم"
+      },
+      "body": {
+        "en": "They are used more than any other colors: black for text and white for backgrounds. But **pure black (#000000) is rarely used** because its strong contrast with white strains the eyes. Designers use a softer black such as #1F1F1F.",
+        "ar": "بيتستخدموا أكتر من أي لون تاني (أسود للنصوص، أبيض للخلفيات). لكن **الأسود النقي (#000000) نادرًا بيتستخدم** — لأن التباين الشديد مع الأبيض بيجهد العين. المصممين بيستخدموا أسود ناعم (زي #1F1F1F)."
+      }
+    },
+    {
+      "id": "start-in-grayscale",
+      "title": {
+        "en": "Start in black and white: wireframe first",
+        "ar": "ابدأ بالأسود والأبيض (Wireframe أولاً)"
+      },
+      "body": {
+        "en": "Design in black, white and gray first, then add color. This forces you to establish structure and visual hierarchy **before** layering emotional and brand decisions on top.",
+        "ar": "صمم بالأسود والأبيض والرمادي الأول، وبعدين ضيف الألوان. ده بيجبرك تظبط الهيكل والتسلسل البصري **قبل** ما تحط قرارات عاطفية/براندية فوقيه."
+      }
+    },
+    {
+      "id": "color-psychology",
+      "title": {
+        "en": "Color psychology",
+        "ar": "علم نفس الألوان (Color Psychology)"
+      },
+      "body": {
+        "en": "Color choices should be based on evidence and meaning, rather than personal taste.\n\n**Blue:** the global favorite. Suggests calm, security and trust. Ideal for social platforms and banks. **Drawback:** widely used, so it is hard to stand out.\n\n**Red:** the longest visible wavelength and a highly noticeable color. Suggests energy, excitement and danger, explaining its use in warnings. Ideal for sports, cinema and energetic brands such as Red Bull, Netflix and YouTube. **Drawback:** generally reads as negative or alarming.\n\n**Yellow:** described as the most noticeable color, suggesting warmth and positivity. Ideal for food, travel and creative brands such as McDonald's and Snapchat. **Drawback:** hurts the eyes when too bright.\n\n**Orange:** energetic, enthusiastic and encouraging creativity. Ideal for sports and promotions, as in Nike and Amazon. **Drawback:** if it is your primary color, you need another color for warnings.\n\n**Green:** the second most popular color. Suggests health, nature and growth, and is widely used for success messages. Ideal for health, banking and fitness, as in Spotify and Robinhood. **Drawback:** if it is your primary color, you need a different color for the success state.\n\n**Purple:** rare in nature, making it a symbol of rarity, luxury and mystery. Ideal for luxury and technology, as in Twitch and Yahoo. Its rarity as a primary color helps brands stand out. **Drawback:** can feel excessive when overused.",
+        "ar": "اختيار اللون لازم يكون مبني على أدلة ومعنى — مش ذوق شخصي.\n\n**الأزرق:** اللون المفضل عالميًا. بيوحي بالهدوء، الأمان، الثقة. مثالي للمنصات الاجتماعية والبنوك. **العيب:** مستخدم بكثرة، صعب تتميز بيه.\n\n**الأحمر:** أطول موجة ضوئية، أكثر لون ملحوظ. بيوحي بالطاقة، الإثارة، الخطر — عشان كده بيتستخدم في التحذيرات. مثالي للرياضة والسينما والبراندات النشيطة (Red Bull, Netflix, YouTube). **العيب:** عمومًا بيتقرأ كسلبي/مقلق.\n\n**الأصفر:** أكثر لون ملحوظ، بيوحي بالدفء والإيجابية. مثالي للأكل والسفر والبراندات الإبداعية (McDonald's, Snapchat). **العيب:** مؤذي للعين لو كان ساطع أوي.\n\n**البرتقالي:** نشيط، حماسي، بيشجع الإبداع. مثالي للرياضة والعروض (Nike, Amazon). **العيب:** لو استخدمته كلون أساسي، هتحتاج لون تاني للتحذيرات.\n\n**الأخضر:** ثاني أكثر لون محبوب. بيوحي بالصحة، الطبيعة، النمو. بيتستخدم كتير لرسائل النجاح. مثالي للصحة والبنوك واللياقة (Spotify, Robinhood). **العيب:** لو أساسي عندك، هتحتاج لون تاني لحالة \"النجاح.\"\n\n**البنفسجي:** نادر في الطبيعة = رمز الندرة والفخامة والغموض. مثالي للرفاهية والتكنولوجيا (Twitch, Yahoo). نادر كلون أساسي — وده بيساعد البراندات تتميز. **العيب:** ممكن يحسسك بالإفراط لو استخدمته كتير."
+      },
+      "callout": {
+        "type": "note",
+        "en": "**[Note for the Arabic context]** Color meanings vary culturally. In Arab and Islamic cultures, **green** has strong religious and spiritual associations, more so than in Western contexts. **White** symbolizes purity, as it does in the West. **Black** may suggest formality and elegance, or mourning. Warm colors such as gold, brown and dark red are associated with hospitality and generosity. Consider these meanings when designing for an Arab audience.",
+        "ar": "**[ملاحظة للسياق العربي]** معاني الألوان بتختلف ثقافيًا. في الثقافة العربية والإسلامية: **الأخضر** ليه دلالة دينية وروحية قوية (أكتر من الغرب). **الأبيض** بيرمز للنقاء (زي الغرب). **الأسود** ممكن يرمز للرسمية والأناقة أو الحداد. الألوان الدافئة (ذهبي، بني، أحمر داكن) ليها ارتباط بالضيافة والكرم. خد المعاني دي في اعتبارك لما تصمم لجمهور عربي."
+      }
+    },
+    {
+      "id": "color-wheel-schemes",
+      "title": {
+        "en": "Color wheel schemes",
+        "ar": "أنظمة دمج الألوان (Color Wheel Schemes)"
+      },
+      "body": {
+        "en": "**Complementary:** two opposite colors, creating high contrast.\n**Analogous:** three neighboring colors, creating natural harmony.\n**Split-complementary:** one color plus the two neighbors of its complement; similar to complementary but softer.\n**Triadic:** three evenly spaced colors, creating a lively, contrasting palette.\n**Rectangular:** two complementary pairs, or four colors; needs one dominant color and supporting colors.\n**Monochromatic:** one color plus its tints and shades. **The easiest to apply**, and visually cohesive because you avoid managing competing bold colors.",
+        "ar": "**تكاملي (Complementary):** لونين متقابلين — تباين عالي.\n**متجاور (Analogous):** ٣ ألوان جنب بعض — متناغم وطبيعي.\n**تكاملي منقسم (Split-Complementary):** لون + اللونين المجاورين لمكمّله — زي التكاملي بس أنعم.\n**ثلاثي (Triadic):** ٣ ألوان متباعدة بالتساوي — حيوي ومتباين.\n**مستطيل (Rectangular):** زوجين تكامليين (٤ ألوان) — محتاج لون مسيطر والباقي مساعد.\n**أحادي اللون (Monochromatic):** لون واحد + درجاته الفاتحة والغامقة. **الأسهل في التطبيق** ومتماسك بصريًا لأنك بتتجنب إدارة ألوان جريئة متنافسة."
+      }
+    },
+    {
+      "id": "palette-generator-limitations",
+      "title": {
+        "en": "Why random palette generators are not enough",
+        "ar": "ليه مولدات الألوان العشوائية مش كفاية؟"
+      },
+      "body": {
+        "en": "They produce only about four colors, which is insufficient for a complete system. They lack black, white, gray and their variations, and are not based on color psychology. They may look attractive in isolation, then feel strange and unrealistic on a real interface.",
+        "ar": "لأنها بتنتج ~٤ ألوان بس (مش كفاية لنظام كامل)، بتفتقر الأسود/الأبيض/الرمادي ودرجاتهم، ومش مبنية على علم نفس الألوان — بتبان \"حلوة\" لكن لما تطبقها على واجهة حقيقية بتبان \"غريبة ومش واقعية.\""
+      }
+    },
+    {
+      "id": "build-a-color-palette",
+      "title": {
+        "en": "Eight steps to a complete color palette",
+        "ar": "٨ خطوات لبناء لوحة ألوان كاملة"
+      },
+      "body": {
+        "en": "**1. Choose a primary color:**\nBase it on color psychology and brand personality. Use it for buttons, checkboxes and active input fields. It is usually the main brand color.\n\n**2. Choose a secondary color — optional:**\nUse it for secondary actions. It is not mandatory; the author often leaves it out.\n\n**3. Choose notification colors:**\nGreen for success, orange for warnings and red for errors. If your primary color is already green, orange or red, adjust the notification hue slightly to distinguish it.\n\n**4. Create tints:**\nIncrease each color's lightness in consistent steps, for example +10%. These are useful for backgrounds.\n\n**5. Create shades:**\nReduce each color's lightness, for example -10%. These are useful for text. If a shade becomes completely black, raise its lightness slightly.\n\n**6. Create a grayscale:**\nSet saturation to about 20 for a cool, blue-tinted gray, or 0 for a fully neutral gray. Start at 10% lightness for the darkest gray and increase in 10% steps up to white.\n\n**7. Assign each color's use manually:**\nFor example: primary for buttons and inputs, darkest gray for text, lightest gray for backgrounds. **Do not apply the 60-30-10 rule mechanically.** The author finds it impractical because it does not handle more than three colors well and largely describes what you would do naturally.\n\n**8. Save colors as Color Styles:**\nSave them in your design tool to save considerable time later. You do not have to use every color, and small additions later are acceptable.",
+        "ar": "**١. اختار لون أساسي (Primary Color):**\nبناءً على علم نفس الألوان وشخصية البراند. بيتستخدم للأزرار، مربعات الاختيار، حقول الإدخال المفعّلة. في الغالب بيكون لون البراند الأساسي.\n\n**٢. اختار لون ثانوي (Secondary Color) — اختياري:**\nللأفعال الثانوية. مش لازم — المؤلف كتير بيستغنى عنه.\n\n**٣. اختار ألوان الإشعارات (Notification Colors):**\nأخضر = نجاح، برتقالي = تحذير، أحمر = خطأ. لو لونك الأساسي هو نفسه أخضر أو برتقالي أو أحمر، غيّر صبغة لون الإشعار شوية عشان يتميز.\n\n**٤. اعمل درجات فاتحة (Tints):**\nلكل لون، زوّد الإضاءة بنسبة ثابتة (مثلاً +10%). مفيدة للخلفيات.\n\n**٥. اعمل درجات غامقة (Shades):**\nلكل لون، قلّل الإضاءة (مثلاً -10%). مفيدة للنصوص. انتبه — لو الدرجة بقت سودا خالص، ارفع الإضاءة شوية.\n\n**٦. اعمل مقياس رمادي (Grayscale):**\nحط التشبع على ~20 (لو عايز رمادي بارد بميل أزرق) أو 0 (محايد تمامًا). ابدأ بإضاءة 10% لأغمق رمادي، وازود بـ 10% لحد الأبيض.\n\n**٧. حدد استخدام كل لون يدويًا:**\nمثلاً: الأساسي → أزرار ومدخلات، أغمق رمادي → نصوص، أفتح رمادي → خلفيات. **متعتمدش على قاعدة 60-30-10 بشكل ميكانيكي** — المؤلف شايفها مش مفيدة عمليًا لأنها مش بتتعامل كويس مع أكتر من ٣ ألوان، وهي فعليًا بتوصف اللي هتعمله تلقائيًا.\n\n**٨. احفظ الألوان كـ Color Styles:**\nفي أداة التصميم بتاعتك — بيوفر وقت كبير بعدين. مش لازم تستخدم كل لون، وإضافات بسيطة لاحقًا مقبولة."
+      }
+    },
+    {
+      "id": "accessibility-and-contrast",
+      "title": {
+        "en": "Accessibility and contrast (WCAG)",
+        "ar": "إمكانية الوصول والتباين (Accessibility / WCAG)"
+      },
+      "body": {
+        "en": "Always check contrast ratios between overlapping colors, such as text on a background. About 4.5% of people have color blindness. What looks good on your screen may fail on another device or under different lighting, such as an old phone in sunlight. **Always use contrast-checking tools.**",
+        "ar": "دايمًا تحقق من نسب التباين بين الألوان المتداخلة (نص على خلفية). ~4.5% من الناس عندهم عمى ألوان، واللي بيبان كويس على شاشتك ممكن يفشل على أجهزة تانية أو في إضاءة مختلفة (زي موبايل قديم في الشمس). **دايمًا استخدم أدوات فحص التباين.**"
+      }
+    },
+    {
+      "id": "key-takeaways",
+      "title": {
+        "en": "Key takeaways",
+        "ar": "أهم النقاط"
+      },
+      "body": {
+        "en": "- Base color choices on psychology and brand personality, rather than personal taste.\n- Start every design in black and white before adding color.\n- Avoid pure black (#000000).\n- Use color wheel schemes intentionally. Monochromatic is the easiest.\n- Avoid random palette generators; build a complete system with primary, optional secondary, notification colors, tints, shades and grayscale.\n- Assign each color's use manually.\n- Always check accessibility (WCAG) and color blindness.",
+        "ar": "- ابني اختيارات الألوان على علم النفس وشخصية البراند — مش الذوق الشخصي.\n- ابدأ كل تصميم بالأسود والأبيض قبل الألوان.\n- تجنب الأسود النقي (#000000).\n- استخدم أنظمة عجلة الألوان بقصد. الأحادي (Monochromatic) هو الأسهل.\n- متستخدمش مولدات الألوان العشوائية — ابني نظام كامل (أساسي، ثانوي اختياري، إشعارات، درجات فاتحة وغامقة، رمادي).\n- حدد استخدام كل لون يدويًا.\n- تحقق من إمكانية الوصول (WCAG) وعمى الألوان دايمًا."
+      }
+    }
+  ]
+}

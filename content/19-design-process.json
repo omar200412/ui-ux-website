@@ -1,0 +1,92 @@
+{
+  "$schema": "../schema/chapter.schema.json",
+  "id": "design-process",
+  "order": 19,
+  "title": {
+    "en": "My UI Design Process",
+    "ar": "عملية التصميم بتاعتي"
+  },
+  "intro": {
+    "en": "A dependable process moves from understanding the problem to rough structure, visual decisions and a presentation that explains the reasoning.",
+    "ar": "خد بالك: دي عملية شخصية لمصمّم فري لانسر، مش وصفة عالمية. الإبداع نفسه ماينفعش يتعلّم مباشرة — بييجي بالممارسة. النقطة المهمة: الطرق الأصلية أو الغريبة في التصميم ما بتاخدش درجات إضافية — النتيجة النهائية هي اللي بتفرق."
+  },
+  "sections": [
+    {
+      "id": "understand-the-problem",
+      "title": {
+        "en": "Step 1: Understand the problem",
+        "ar": "الخطوة ١: افهم المشكلة"
+      },
+      "body": {
+        "en": "Clarify the user, business goal, constraints, content and required actions before drawing screens. Ask questions until you can state what success means in plain language.",
+        "ar": "**أهم خطوة على الإطلاق.** دي اللي بتضمن إن التصميم النهائي هيكون قابل للاستخدام فعلًا.\r\n\r\nفي الشركات والوكالات، فيه باحثين تجربة مستخدم (UX Researchers) بيعملوا الجزء ده. لكن كفري لانسر، العملاء غالبًا بيفتكروا إن \"مصمّم واجهات\" يعني \"خلّيه حلو\" وممكن مايقدّروش البحث — لكن إنت لازم تعمله حتى لو ماطلبوهوش.\r\n\r\n**وهنا اعتراف مهم:** التصميم الجيد لتجربة المستخدم (UX) أهم من التصميم الجيد للواجهة (UI). ممكن يكون عندك أحلى واجهة في الدنيا لكن لو بتحل المشكلة الغلط أو مش بتحل مشكلة أصلًا — مالهاش لازمة."
+      }
+    },
+    {
+      "id": "rough-sketches",
+      "title": {
+        "en": "Step 2: Make very rough sketches",
+        "ar": "الخطوة ٢: اعمل رسومات أولية خشنة جدًا"
+      },
+      "body": {
+        "en": "Explore several arrangements quickly with pen and paper or low-detail blocks. Roughness keeps attention on structure and makes discarding weak ideas inexpensive.",
+        "ar": "الهدف هنا إنك تطلّع الأفكار من دماغك على ورق — تركيزك كله على حل المشكلة، مش على الشكل.\r\n\r\n**القاعدة: الكمية أهم من الجودة في المرحلة دي.** ١٠ رسومات وحشة لكن مختلفة أحسن من رسمة واحدة حلوة. ماتفكرش في الخطوط أو الألوان خالص. كل ما الرسومات كانت أوحش، كل ما ده علامة إنك بتفكر بسرعة ومن غير التزام بصري مبكر."
+      }
+    },
+    {
+      "id": "wireframes",
+      "title": {
+        "en": "Step 3: Build detailed wireframes",
+        "ar": "الخطوة ٣: اعمل هيكل تفصيلي (Wireframes)"
+      },
+      "body": {
+        "en": "Turn the strongest direction into a clear hierarchy and realistic flow. Test content length, states and edge cases before color and polish make the work feel prematurely finished.",
+        "ar": "ده بيتعمل في Figma أو أدوات زي Whimsical. الهدف: توصل لوضوح مشترك حقيقي بينك وبين العميل — دي أول نقطة المصمّم والعميل بيبقى عندهم رؤية واحدة ملموسة لهيكل المنتج النهائي، قبل ما تستثمر في أي أصول بصرية.\r\n\r\n**ليه ده مهم؟** لأنه بيمنعك تضيّع مجهود على تصميم بصري فخم لمشكلة هيكلية محلولتش صح. الهيكل لسه من غير محتوى أو أصول حقيقية — وده عمدًا."
+      }
+    },
+    {
+      "id": "choose-assets",
+      "title": {
+        "en": "Step 4: Choose the visual assets",
+        "ar": "الخطوة ٤: اختار الأصول (الخطوط والألوان والأيقونات)"
+      },
+      "body": {
+        "en": "Select typefaces, colors, icons, photos and illustrations that support the intended personality and constraints. Make these choices as a coherent system, not as isolated decoration.",
+        "ar": "اختيار الخطوط والألوان والأيقونات (وأحيانًا الصور والرسومات التوضيحية) بيحصل **بعد** ما الهيكل يتثبّت — مش قبل.\r\n\r\nمع العميل، دي عملية تعاونية عشان تتأكد إن شخصية البراند متمثلة. في المشاريع الشخصية، بتختار براحتك. أحيانًا بتبني لوحة ألوان كاملة ومقياس خطوط (Type Scale) في المرحلة دي.\r\n\r\n**ليه بعد الهيكل؟** لأن الاتفاق على الأصول قبل بناء أي شاشة بيمنع سوء التفاهم بعدين. وفي الشركات، القرار ده ممكن يكون بتاع حد تاني (مصمّم البراند مثلًا) ومش محتاج تعمله إنت."
+      }
+    },
+    {
+      "id": "apply-visual-system",
+      "title": {
+        "en": "Step 5: Apply the system to the wireframes",
+        "ar": "الخطوة ٥: طبّق الأصول على الهيكل"
+      },
+      "body": {
+        "en": "Apply the chosen assets consistently, refine spacing and hierarchy, and create reusable components. Review the result across screen sizes and interaction states.",
+        "ar": "دي مرحلة نظريًا بسيطة — بتوصّل الهيكل الجاهز بالأصول المتفق عليها عشان تطلّع الشاشات النهائية. الشغل التقيل اتعمل في الخطوات ٣ و٤؛ هيكل مظبوط بيخلّي المرحلة دي أسهل بكتير."
+      }
+    },
+    {
+      "id": "present-the-work",
+      "title": {
+        "en": "Step 6: Present the work",
+        "ar": "الخطوة ٦: العرض (Presentation)"
+      },
+      "body": {
+        "en": "Show the problem, the reasoning and the resulting flow—not just attractive screens. Explain important tradeoffs and connect decisions to user and business goals.",
+        "ar": "**لشغل العملاء الحقيقي:** قدّم عن طريق مكالمة أو فيديو مسجل (Loom) — ماتبعتش الملفات وخلاص. العملاء محتاجين يسمعوا **ليه** اخترت القرارات دي، مش بس يشوفوا النتيجة. شرح الأسباب بيقلل دورات المراجعة (Revisions) بشكل ملحوظ لأن العملاء غالبًا عندهم معرفة أقل بالـ UI/UX.\r\n\r\n**لشغل البورتفوليو/المفاهيمي:** غلّفه بشكل حلو — مثلًا فريم ١٠٨٠×١٠٨٠ أو ١٦٠٠×١٢٠٠ بخلفية باستيل. جودة العرض بتأثر على إزاي الشغل بيتقيّم على السوشيال ميديا."
+      }
+    },
+    {
+      "id": "process-key-points",
+      "title": {
+        "en": "Key points",
+        "ar": "النقاط المفتاحية"
+      },
+      "body": {
+        "en": "- Understand before drawing.\n- Explore cheaply with rough sketches.\n- Resolve structure and content in wireframes.\n- Choose visual assets as one system.\n- Apply that system consistently.\n- Present decisions and outcomes, not decoration alone.",
+        "ar": "- فهم المشكلة دايمًا قبل أي شغل بصري — الـ UX الجيد أساس الـ UI الجيد\r\n- مرحلة الرسومات: الكمية والقبح أهم من البوليش — افصل التفكير عن التنسيق\r\n- الهيكل (Wireframes) = نقطة التوافق الحقيقية مع العميل قبل الاستثمار البصري\r\n- الأصول (خطوط/ألوان/أيقونات) بتتختار بعد ما الهيكل يتثبّت، ويفضّل بالتعاون مع العميل\r\n- ماتبعتش الملفات النهائية من غير شرح — تقديم الأسباب بيقلل المراجعات\r\n- عرض الشغل المفاهيمي (موك أب، خلفيات باستيل) مهم للسوشيال ميديا والبورتفوليو"
+      }
+    }
+  ]
+}
